@@ -1,0 +1,35 @@
+[5.375s] Invoking command in '/home/f1tenth/lab_ws25/build/safety_node': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build
+[6.129s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.129s]   warnings.warn(
+[6.326s] running develop
+[6.937s] Removing /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety-node.egg-link (link to .)
+[7.088s] Invoked command in '/home/f1tenth/lab_ws25/build/safety_node' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build
+[7.091s] Invoking command in '/home/f1tenth/lab_ws25/src/safety_node_car_wrapper/safety_node': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/safety_node build --build-base /home/f1tenth/lab_ws25/build/safety_node/build install --record /home/f1tenth/lab_ws25/build/safety_node/install.log --install-scripts $base/lib/safety_node --single-version-externally-managed install_data --force
+[7.773s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.773s]   warnings.warn(
+[8.039s] running egg_info
+[8.076s] writing ../../../build/safety_node/safety_node.egg-info/PKG-INFO
+[8.077s] writing dependency_links to ../../../build/safety_node/safety_node.egg-info/dependency_links.txt
+[8.077s] writing entry points to ../../../build/safety_node/safety_node.egg-info/entry_points.txt
+[8.077s] writing requirements to ../../../build/safety_node/safety_node.egg-info/requires.txt
+[8.078s] writing top-level names to ../../../build/safety_node/safety_node.egg-info/top_level.txt
+[8.187s] reading manifest file '../../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[8.189s] writing manifest file '../../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[8.189s] running build
+[8.190s] running build_py
+[8.190s] running install
+[8.203s] running install_lib
+[8.240s] creating /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node
+[8.241s] copying /home/f1tenth/lab_ws25/build/safety_node/build/lib/safety_node/safety_node.py -> /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node
+[8.242s] copying /home/f1tenth/lab_ws25/build/safety_node/build/lib/safety_node/__init__.py -> /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node
+[8.243s] byte-compiling /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node/safety_node.py to safety_node.cpython-38.pyc
+[8.245s] byte-compiling /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py to __init__.cpython-38.pyc
+[8.245s] running install_data
+[8.245s] copying resource/safety_node -> /home/f1tenth/lab_ws25/install/safety_node/share/ament_index/resource_index/packages
+[8.245s] copying package.xml -> /home/f1tenth/lab_ws25/install/safety_node/share/safety_node
+[8.246s] running install_egg_info
+[8.285s] Copying ../../../build/safety_node/safety_node.egg-info to /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety_node-0.0.0-py3.8.egg-info
+[8.287s] running install_scripts
+[8.433s] Installing safety_node script to /home/f1tenth/lab_ws25/install/safety_node/lib/safety_node
+[8.434s] writing list of installed files to '/home/f1tenth/lab_ws25/build/safety_node/install.log'
+[8.566s] Invoked command in '/home/f1tenth/lab_ws25/src/safety_node_car_wrapper/safety_node' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/safety_node build --build-base /home/f1tenth/lab_ws25/build/safety_node/build install --record /home/f1tenth/lab_ws25/build/safety_node/install.log --install-scripts $base/lib/safety_node --single-version-externally-managed install_data --force

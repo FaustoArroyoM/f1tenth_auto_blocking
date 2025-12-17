@@ -1,0 +1,31 @@
+[1.855s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[2.781s] [ 50%] Built target waypoint_visualiser_node
+[2.783s] [100%] Built target pure_pursuit_node
+[3.671s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[3.706s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit
+[3.731s] -- Install configuration: ""
+[3.732s] -- Execute custom install script
+[3.732s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/waypoint_visualiser_node
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[3.733s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[3.734s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[3.734s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[3.734s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[3.734s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[3.734s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[3.735s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[3.738s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[3.738s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[3.738s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[3.738s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[3.738s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[3.740s] -- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.dsv
+[3.764s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[3.765s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[3.766s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[3.771s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.xml
+[3.803s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit

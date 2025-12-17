@@ -1,0 +1,19 @@
+[5.515s] Invoking command in '/home/f1tenth/lab_ws25/build/stanley_avoidance': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/stanley_avoidance/build --no-deps symlink_data
+[7.111s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.112s]   warnings.warn(
+[7.877s] running develop
+[8.959s] running egg_info
+[9.003s] writing stanley_avoidance.egg-info/PKG-INFO
+[9.005s] writing dependency_links to stanley_avoidance.egg-info/dependency_links.txt
+[9.006s] writing entry points to stanley_avoidance.egg-info/entry_points.txt
+[9.006s] writing requirements to stanley_avoidance.egg-info/requires.txt
+[9.006s] writing top-level names to stanley_avoidance.egg-info/top_level.txt
+[9.107s] reading manifest file 'stanley_avoidance.egg-info/SOURCES.txt'
+[9.111s] writing manifest file 'stanley_avoidance.egg-info/SOURCES.txt'
+[9.339s] running build_ext
+[9.340s] Creating /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley-avoidance.egg-link (link to .)
+[9.343s] Installing stanley_avoidance script to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/stanley_avoidance
+[9.345s] 
+[9.345s] Installed /home/f1tenth/lab_ws25/build/stanley_avoidance
+[9.346s] running symlink_data
+[9.348s] symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/FTM_clean2_ws25.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines

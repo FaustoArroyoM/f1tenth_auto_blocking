@@ -1,0 +1,42 @@
+[5.562s] Invoking command in '/home/f1tenth/lab_ws25/build/rrt': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/rrt/build
+[6.241s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.241s]   warnings.warn(
+[6.432s] running develop
+[7.058s] Removing /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt.egg-link (link to .)
+[7.243s] Invoked command in '/home/f1tenth/lab_ws25/build/rrt' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/rrt/build
+[7.245s] Invoking command in '/home/f1tenth/lab_ws25/src/rrt': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data --force
+[7.962s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.963s]   warnings.warn(
+[8.250s] running egg_info
+[8.290s] writing ../../build/rrt/rrt.egg-info/PKG-INFO
+[8.292s] writing dependency_links to ../../build/rrt/rrt.egg-info/dependency_links.txt
+[8.293s] writing entry points to ../../build/rrt/rrt.egg-info/entry_points.txt
+[8.294s] writing requirements to ../../build/rrt/rrt.egg-info/requires.txt
+[8.295s] writing top-level names to ../../build/rrt/rrt.egg-info/top_level.txt
+[8.413s] reading manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[8.413s] adding license file 'LICENSE'
+[8.415s] writing manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[8.416s] running build
+[8.416s] running build_py
+[8.417s] running install
+[8.430s] running install_lib
+[8.472s] creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[8.473s] copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/rrt.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[8.474s] copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/__init__.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[8.476s] byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/rrt.py to rrt.cpython-38.pyc
+[8.486s] byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/__init__.py to __init__.cpython-38.pyc
+[8.487s] running install_data
+[8.488s] copying resource/rrt -> /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages
+[8.489s] copying package.xml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt
+[8.490s] copying racelines/traj_race_cl-2025-12-03 15:22:21.628154.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[8.490s] copying launch/rrt.rviz -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[8.492s] copying launch/sim_rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[8.493s] copying launch/rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[8.493s] copying config/config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+[8.494s] copying config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+[8.495s] running install_egg_info
+[8.548s] Copying ../../build/rrt/rrt.egg-info to /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt-0.0.0-py3.8.egg-info
+[8.550s] running install_scripts
+[8.709s] Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+[8.711s] writing list of installed files to '/home/f1tenth/lab_ws25/build/rrt/install.log'
+[8.867s] Invoked command in '/home/f1tenth/lab_ws25/src/rrt' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data --force

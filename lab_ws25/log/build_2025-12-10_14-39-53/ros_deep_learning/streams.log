@@ -1,0 +1,43 @@
+[3.180s] Invoking command in '/home/f1tenth/lab_ws25/build/ros_deep_learning': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/ros_deep_learning -- -j6 -l6
+[4.633s] [ 20%] Built target detectnet
+[4.633s] [ 40%] Built target video_output
+[4.633s] [ 60%] Built target imagenet
+[4.634s] [ 80%] Built target video_source
+[4.634s] [100%] Built target segnet
+[6.223s] Invoked command in '/home/f1tenth/lab_ws25/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/ros_deep_learning -- -j6 -l6
+[6.233s] Invoking command in '/home/f1tenth/lab_ws25/build/ros_deep_learning': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/ros_deep_learning
+[6.337s] -- Install configuration: ""
+[6.337s] -- Execute custom install script
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[6.338s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[6.339s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[6.340s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[6.341s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[6.341s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[6.341s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[6.341s] -- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[6.374s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[6.387s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[6.387s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[6.390s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[6.527s] Invoked command in '/home/f1tenth/lab_ws25/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/ros_deep_learning

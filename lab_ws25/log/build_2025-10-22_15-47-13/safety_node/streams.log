@@ -1,0 +1,21 @@
+[2.877s] Invoking command in '/home/f1tenth/lab_ws25/build/safety_node': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build --no-deps symlink_data --force
+[3.545s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.546s]   warnings.warn(
+[3.814s] running develop
+[4.391s] running egg_info
+[4.427s] writing safety_node.egg-info/PKG-INFO
+[4.428s] writing dependency_links to safety_node.egg-info/dependency_links.txt
+[4.428s] writing entry points to safety_node.egg-info/entry_points.txt
+[4.428s] writing requirements to safety_node.egg-info/requires.txt
+[4.428s] writing top-level names to safety_node.egg-info/top_level.txt
+[4.507s] reading manifest file 'safety_node.egg-info/SOURCES.txt'
+[4.509s] writing manifest file 'safety_node.egg-info/SOURCES.txt'
+[4.640s] running build_ext
+[4.640s] Creating /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety-node.egg-link (link to .)
+[4.642s] Installing safety_node script to /home/f1tenth/lab_ws25/install/safety_node/lib/safety_node
+[4.643s] 
+[4.643s] Installed /home/f1tenth/lab_ws25/build/safety_node
+[4.643s] running symlink_data
+[4.643s] symbolically linking /home/f1tenth/lab_ws25/build/safety_node/resource/safety_node -> /home/f1tenth/lab_ws25/install/safety_node/share/ament_index/resource_index/packages
+[4.643s] symbolically linking /home/f1tenth/lab_ws25/build/safety_node/package.xml -> /home/f1tenth/lab_ws25/install/safety_node/share/safety_node
+[4.805s] Invoked command in '/home/f1tenth/lab_ws25/build/safety_node' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build --no-deps symlink_data --force

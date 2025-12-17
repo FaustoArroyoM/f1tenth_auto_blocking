@@ -1,0 +1,19 @@
+[6.992s] Invoking command in '/home/f1tenth/lab_ws25/build/particle_filter': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build --no-deps symlink_data
+[8.666s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.666s]   warnings.warn(
+[9.299s] running develop
+[10.302s] running egg_info
+[10.386s] writing particle_filter.egg-info/PKG-INFO
+[10.387s] writing dependency_links to particle_filter.egg-info/dependency_links.txt
+[10.392s] writing entry points to particle_filter.egg-info/entry_points.txt
+[10.393s] writing requirements to particle_filter.egg-info/requires.txt
+[10.393s] writing top-level names to particle_filter.egg-info/top_level.txt
+[10.602s] reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+[10.612s] writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+[10.980s] running build_ext
+[10.980s] Creating /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+[10.999s] Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter
+[10.999s] 
+[11.000s] Installed /home/f1tenth/lab_ws25/build/particle_filter
+[11.000s] running symlink_data
+[11.357s] Invoked command in '/home/f1tenth/lab_ws25/build/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build --no-deps symlink_data

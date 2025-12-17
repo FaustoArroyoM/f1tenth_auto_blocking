@@ -1,0 +1,38 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+Removing /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt.egg-link (link to .)
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/rrt/rrt.egg-info/PKG-INFO
+writing dependency_links to ../../build/rrt/rrt.egg-info/dependency_links.txt
+writing entry points to ../../build/rrt/rrt.egg-info/entry_points.txt
+writing requirements to ../../build/rrt/rrt.egg-info/requires.txt
+writing top-level names to ../../build/rrt/rrt.egg-info/top_level.txt
+reading manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/rrt.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/__init__.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/rrt.py to rrt.cpython-38.pyc
+byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/rrt -> /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt
+copying racelines/traj_race_cl-2025-12-03 15:22:21.628154.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+copying launch/rrt.rviz -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+copying launch/sim_rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+copying launch/rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+copying config/config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+copying config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+running install_egg_info
+Copying ../../build/rrt/rrt.egg-info to /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+writing list of installed files to '/home/f1tenth/lab_ws25/build/rrt/install.log'

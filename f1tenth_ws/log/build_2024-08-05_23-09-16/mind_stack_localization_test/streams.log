@@ -1,0 +1,26 @@
+[0.971s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test -- -j6 -l6
+[1.070s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test -- -j6 -l6
+[1.150s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test
+[1.171s] -- Install configuration: ""
+[1.171s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/pythonpath.sh
+[1.171s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/pythonpath.dsv
+[1.171s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test
+[1.171s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test/__init__.py
+[1.235s] Listing '/home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test'...
+[1.244s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/mind_stack_localization_test/mind_stack_localization_test.py
+[1.245s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/package_run_dependencies/mind_stack_localization_test
+[1.245s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/parent_prefix_path/mind_stack_localization_test
+[1.245s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/ament_prefix_path.sh
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/ament_prefix_path.dsv
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/path.sh
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/path.dsv
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.bash
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.sh
+[1.246s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.zsh
+[1.247s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.dsv
+[1.247s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/package.dsv
+[1.247s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/packages/mind_stack_localization_test
+[1.247s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/cmake/mind_stack_localization_testConfig.cmake
+[1.247s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/cmake/mind_stack_localization_testConfig-version.cmake
+[1.247s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/package.xml
+[1.252s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test

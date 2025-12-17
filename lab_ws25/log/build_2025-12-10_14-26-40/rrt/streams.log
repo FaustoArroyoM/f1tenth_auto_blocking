@@ -1,0 +1,20 @@
+[6.879s] Invoking command in '/home/f1tenth/lab_ws25/build/rrt': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/rrt/build --no-deps symlink_data
+[8.824s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.824s]   warnings.warn(
+[9.484s] running develop
+[10.989s] running egg_info
+[11.078s] writing rrt.egg-info/PKG-INFO
+[11.079s] writing dependency_links to rrt.egg-info/dependency_links.txt
+[11.080s] writing entry points to rrt.egg-info/entry_points.txt
+[11.081s] writing requirements to rrt.egg-info/requires.txt
+[11.081s] writing top-level names to rrt.egg-info/top_level.txt
+[11.345s] reading manifest file 'rrt.egg-info/SOURCES.txt'
+[11.353s] writing manifest file 'rrt.egg-info/SOURCES.txt'
+[11.677s] running build_ext
+[11.678s] Creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt.egg-link (link to .)
+[11.682s] Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+[11.684s] 
+[11.689s] Installed /home/f1tenth/lab_ws25/build/rrt
+[11.689s] running symlink_data
+[11.692s] error: can't copy '/home/f1tenth/lab_ws25/build/rrt/racelines/traj_race_cl_shortest_path_left.csv': doesn't exist or not a regular file
+[12.085s] Invoked command in '/home/f1tenth/lab_ws25/build/rrt' returned '1': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/rrt/build --no-deps symlink_data

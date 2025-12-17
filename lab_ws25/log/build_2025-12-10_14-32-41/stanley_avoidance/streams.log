@@ -1,0 +1,55 @@
+[3.206s] Invoking command in '/home/f1tenth/lab_ws25/build/stanley_avoidance': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/stanley_avoidance/build
+[3.905s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.905s]   warnings.warn(
+[4.102s] running develop
+[4.728s] Removing /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley-avoidance.egg-link (link to .)
+[4.862s] Invoked command in '/home/f1tenth/lab_ws25/build/stanley_avoidance' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/stanley_avoidance/build
+[4.870s] Invoking command in '/home/f1tenth/lab_ws25/src/stanley_avoidance': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/f1tenth/lab_ws25/build/stanley_avoidance/build install --record /home/f1tenth/lab_ws25/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data --force
+[5.598s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.598s]   warnings.warn(
+[5.898s] running egg_info
+[5.941s] writing ../../build/stanley_avoidance/stanley_avoidance.egg-info/PKG-INFO
+[5.942s] writing dependency_links to ../../build/stanley_avoidance/stanley_avoidance.egg-info/dependency_links.txt
+[5.942s] writing entry points to ../../build/stanley_avoidance/stanley_avoidance.egg-info/entry_points.txt
+[5.943s] writing requirements to ../../build/stanley_avoidance/stanley_avoidance.egg-info/requires.txt
+[5.943s] writing top-level names to ../../build/stanley_avoidance/stanley_avoidance.egg-info/top_level.txt
+[6.061s] reading manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[6.062s] adding license file 'LICENSE'
+[6.064s] writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[6.065s] running build
+[6.065s] running build_py
+[6.066s] copying stanley_avoidance/stanley_avoidance.py -> /home/f1tenth/lab_ws25/build/stanley_avoidance/build/lib/stanley_avoidance
+[6.066s] running install
+[6.079s] running install_lib
+[6.122s] creating /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+[6.122s] copying /home/f1tenth/lab_ws25/build/stanley_avoidance/build/lib/stanley_avoidance/__init__.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+[6.122s] copying /home/f1tenth/lab_ws25/build/stanley_avoidance/build/lib/stanley_avoidance/stanley_avoidance.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+[6.123s] byte-compiling /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance/__init__.py to __init__.cpython-38.pyc
+[6.124s] byte-compiling /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance/stanley_avoidance.py to stanley_avoidance.cpython-38.pyc
+[6.139s] running install_data
+[6.139s] copying resource/stanley_avoidance -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/ament_index/resource_index/packages
+[6.139s] copying package.xml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance
+[6.140s] copying racelines/traj_race.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.140s] copying racelines/traj_race_cl-2023-12-13_mintime_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.141s] copying racelines/shortest_path.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.141s] copying racelines/e7_floor5.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.142s] copying racelines/traj_race_cl-2023-12-13_shortest_path_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.143s] copying racelines/traj_race_cl-2023-12-13_shortest_path_left.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.143s] copying racelines/traj_race_cl-2023-12-13_mincurv_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.144s] copying racelines/FTMHalle_Mincurve.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.145s] copying racelines/traj_race_cl-2023-12-05_mincurv.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.145s] copying racelines/FTMHalle_Mincurve_new.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.145s] copying racelines/FTM_clean2_ws25.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.146s] copying racelines/traj_race_cl-2023-12-13_mincurv_iqp_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+[6.146s] copying launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+[6.147s] copying launch/stanley_avoidance.rviz -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+[6.147s] copying launch/stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+[6.147s] copying launch/sim_stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+[6.148s] copying config/config.yaml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/config
+[6.148s] copying config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/config
+[6.149s] running install_egg_info
+[6.185s] Copying ../../build/stanley_avoidance/stanley_avoidance.egg-info to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info
+[6.191s] running install_scripts
+[6.338s] Installing stanley_avoidance script to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/stanley_avoidance
+[6.339s] writing list of installed files to '/home/f1tenth/lab_ws25/build/stanley_avoidance/install.log'
+[6.458s] Invoked command in '/home/f1tenth/lab_ws25/src/stanley_avoidance' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/f1tenth/lab_ws25/build/stanley_avoidance/build install --record /home/f1tenth/lab_ws25/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data --force

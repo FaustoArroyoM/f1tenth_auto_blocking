@@ -1,0 +1,62 @@
+[5.550s] Invoking command in '/home/f1tenth/lab_ws25/build/particle_filter': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build
+[6.234s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.235s]   warnings.warn(
+[6.470s] running develop
+[7.158s] Removing /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+[7.358s] Invoked command in '/home/f1tenth/lab_ws25/build/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build
+[7.360s] Invoking command in '/home/f1tenth/lab_ws25/src/particle_filter': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/lab_ws25/build/particle_filter/build install --record /home/f1tenth/lab_ws25/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data --force
+[8.100s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.100s]   warnings.warn(
+[8.399s] running egg_info
+[8.440s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[8.441s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[8.441s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[8.442s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[8.442s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[8.571s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.573s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.574s] running build
+[8.574s] running build_py
+[8.575s] running install
+[8.588s] running install_lib
+[8.640s] creating /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[8.641s] copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/utils.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[8.641s] copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/__init__.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[8.641s] copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[8.642s] byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/utils.py to utils.cpython-38.pyc
+[8.642s] byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/__init__.py to __init__.cpython-38.pyc
+[8.642s] byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-38.pyc
+[8.646s] running install_data
+[8.646s] copying resource/particle_filter -> /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index/packages
+[8.646s] copying package.xml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter
+[8.646s] copying maps/e7_floor5_bigger.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.665s] copying maps/FTMHalle_ws25.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.665s] copying maps/Hockenheim_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.666s] copying maps/e7_floor5_biggest_RAW.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.672s] copying maps/FTMHalle_ws25.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.672s] copying maps/map1_sync.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.673s] copying maps/cps_2023.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.674s] copying maps/e7_floor5_biggest.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.680s] copying maps/cps_2023_old.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.680s] copying maps/map1_async.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.681s] copying maps/cps_2023_old.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.682s] copying maps/map1_async.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.682s] copying maps/Silverstone_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.683s] copying maps/e7_floor5_biggest.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.684s] copying maps/e7_floor5.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.684s] copying maps/e7_floor5.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.686s] copying maps/cps_2023.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.686s] copying maps/map1_sync.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.687s] copying maps/Hockenheim_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.688s] copying maps/e7_floor3_merged.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.688s] copying maps/e7_floor5_bigger.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.688s] copying maps/e7_floor3_merged.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.691s] copying maps/Silverstone_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.691s] copying launch/localize_launch.py -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/launch
+[8.691s] copying config/localize.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/config
+[8.692s] running install_egg_info
+[8.734s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[8.737s] running install_scripts
+[8.888s] Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter
+[8.889s] writing list of installed files to '/home/f1tenth/lab_ws25/build/particle_filter/install.log'
+[9.023s] Invoked command in '/home/f1tenth/lab_ws25/src/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/lab_ws25/build/particle_filter/build install --record /home/f1tenth/lab_ws25/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data --force

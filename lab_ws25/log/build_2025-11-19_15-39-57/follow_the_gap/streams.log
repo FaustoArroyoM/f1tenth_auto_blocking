@@ -1,0 +1,40 @@
+[5.026s] Invoking command in '/home/f1tenth/lab_ws25/build/follow_the_gap': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/follow_the_gap/build
+[5.758s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.758s]   warnings.warn(
+[5.954s] running develop
+[6.559s] Removing /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow-the-gap.egg-link (link to .)
+[6.727s] Invoked command in '/home/f1tenth/lab_ws25/build/follow_the_gap' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/lab_ws25/build/follow_the_gap/build
+[6.730s] Invoking command in '/home/f1tenth/lab_ws25/src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/follow_the_gap build --build-base /home/f1tenth/lab_ws25/build/follow_the_gap/build install --record /home/f1tenth/lab_ws25/build/follow_the_gap/install.log --install-scripts $base/lib/follow_the_gap --single-version-externally-managed install_data --force
+[7.857s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.857s]   warnings.warn(
+[8.454s] running egg_info
+[8.514s] writing ../../../../build/follow_the_gap/follow_the_gap.egg-info/PKG-INFO
+[8.515s] writing dependency_links to ../../../../build/follow_the_gap/follow_the_gap.egg-info/dependency_links.txt
+[8.515s] writing entry points to ../../../../build/follow_the_gap/follow_the_gap.egg-info/entry_points.txt
+[8.516s] writing requirements to ../../../../build/follow_the_gap/follow_the_gap.egg-info/requires.txt
+[8.516s] writing top-level names to ../../../../build/follow_the_gap/follow_the_gap.egg-info/top_level.txt
+[8.683s] reading manifest file '../../../../build/follow_the_gap/follow_the_gap.egg-info/SOURCES.txt'
+[8.691s] writing manifest file '../../../../build/follow_the_gap/follow_the_gap.egg-info/SOURCES.txt'
+[8.691s] running build
+[8.691s] running build_py
+[8.692s] creating /home/f1tenth/lab_ws25/build/follow_the_gap/build
+[8.692s] creating /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib
+[8.692s] creating /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib/follow_the_gap
+[8.692s] copying follow_the_gap/follow_the_gap.py -> /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib/follow_the_gap
+[8.702s] copying follow_the_gap/__init__.py -> /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib/follow_the_gap
+[8.702s] running install
+[8.728s] running install_lib
+[8.816s] creating /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[8.816s] copying /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib/follow_the_gap/follow_the_gap.py -> /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[8.816s] copying /home/f1tenth/lab_ws25/build/follow_the_gap/build/lib/follow_the_gap/__init__.py -> /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[8.817s] byte-compiling /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap/follow_the_gap.py to follow_the_gap.cpython-38.pyc
+[8.820s] byte-compiling /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap/__init__.py to __init__.cpython-38.pyc
+[8.820s] running install_data
+[8.821s] copying resource/follow_the_gap -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/ament_index/resource_index/packages
+[8.822s] copying package.xml -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/follow_the_gap
+[8.823s] running install_egg_info
+[8.898s] Copying ../../../../build/follow_the_gap/follow_the_gap.egg-info to /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap-0.0.0-py3.8.egg-info
+[8.911s] running install_scripts
+[9.121s] Installing follow_the_gap script to /home/f1tenth/lab_ws25/install/follow_the_gap/lib/follow_the_gap
+[9.123s] writing list of installed files to '/home/f1tenth/lab_ws25/build/follow_the_gap/install.log'
+[9.293s] Invoked command in '/home/f1tenth/lab_ws25/src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/follow_the_gap build --build-base /home/f1tenth/lab_ws25/build/follow_the_gap/build install --record /home/f1tenth/lab_ws25/build/follow_the_gap/install.log --install-scripts $base/lib/follow_the_gap --single-version-externally-managed install_data --force

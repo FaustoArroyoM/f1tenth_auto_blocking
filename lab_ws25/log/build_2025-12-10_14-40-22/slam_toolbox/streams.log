@@ -1,0 +1,344 @@
+[0.290s] Invoking command in '/home/f1tenth/lab_ws25/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/slam_toolbox -- -j6 -l6
+[0.614s] [  2%] Built target kartoSlamToolbox
+[0.766s] [ 11%] Built target slam_toolbox__rosidl_generator_c
+[0.843s] [ 12%] Built target slam_toolbox__cpp
+[0.976s] [ 21%] Built target slam_toolbox__rosidl_typesupport_c
+[1.079s] [ 30%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[1.243s] [ 39%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[1.410s] [ 48%] Built target slam_toolbox__rosidl_typesupport_cpp
+[1.658s] [ 57%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[1.837s] [ 66%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[2.016s] [ 66%] Built target slam_toolbox
+[2.306s] [ 71%] Built target toolbox_common
+[2.607s] [ 73%] Built target ceres_solver_plugin
+[2.881s] [ 74%] Built target localization_slam_toolbox
+[3.181s] [ 76%] Built target async_slam_toolbox
+[3.452s] [ 77%] Built target merge_maps_kinematic
+[3.723s] [ 79%] Built target localization_slam_toolbox_node
+[3.992s] [ 80%] Built target async_slam_toolbox_node
+[4.148s] [ 82%] Built target sync_slam_toolbox
+[4.414s] [ 84%] Built target lifelong_slam_toolbox
+[4.750s] [ 85%] Built target sync_slam_toolbox_node
+[5.064s] [ 86%] Built target lifelong_slam_toolbox_node
+[5.423s] [ 88%] Built target SlamToolboxPlugin
+[5.589s] [ 89%] Built target slam_toolbox__py
+[5.803s] [ 97%] Built target slam_toolbox__python
+[6.019s] [ 98%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[6.202s] [ 99%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[6.394s] [100%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[6.478s] Invoked command in '/home/f1tenth/lab_ws25/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/slam_toolbox -- -j6 -l6
+[6.480s] Invoking command in '/home/f1tenth/lab_ws25/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/slam_toolbox
+[6.517s] -- Install configuration: "Release"
+[6.518s] -- Execute custom install script
+[6.518s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Karto.h
+[6.518s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Macros.h
+[6.518s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Mapper.h
+[6.518s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Math.h
+[6.518s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Types.h
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.sh
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk
+[6.519s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.sh
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.dsv
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.bash
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.sh
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.zsh
+[6.520s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.dsv
+[6.521s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.dsv
+[6.521s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk
+[6.521s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[6.521s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.521s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.522s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake
+[6.522s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake
+[6.522s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.xml
+[6.523s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[6.525s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[6.526s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h
+[6.526s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.h
+[6.527s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h
+[6.527s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h
+[6.542s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h
+[6.543s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h
+[6.544s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h
+[6.545s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[6.546s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h
+[6.547s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[6.548s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[6.549s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[6.550s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[6.550s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.550s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[6.550s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[6.550s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.553s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[6.553s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[6.554s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.555s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[6.555s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[6.556s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[6.556s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[6.556s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[6.557s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[6.557s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[6.564s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[6.565s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[6.565s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[6.565s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.565s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp
+[6.566s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp
+[6.566s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp
+[6.566s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp
+[6.566s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp
+[6.566s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp
+[6.567s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp
+[6.567s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.hpp
+[6.568s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp
+[6.568s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp
+[6.568s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp
+[6.569s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.hpp
+[6.569s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[6.570s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[6.570s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[6.571s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.hpp
+[6.571s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[6.572s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[6.572s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[6.572s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp
+[6.573s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[6.573s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[6.581s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[6.582s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.hpp
+[6.582s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[6.582s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[6.583s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[6.583s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.hpp
+[6.583s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp
+[6.583s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp
+[6.583s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp
+[6.596s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.hpp
+[6.596s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp
+[6.596s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp
+[6.597s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp
+[6.597s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.hpp
+[6.597s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[6.597s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[6.597s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[6.599s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp
+[6.599s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[6.607s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[6.607s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[6.607s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp
+[6.607s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[6.608s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/__init__.py
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap.py
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear.py
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue.py
+[6.610s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive.py
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.611s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.643s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__python.so
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[6.644s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[6.645s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[6.645s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[6.645s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[6.645s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[6.645s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[6.646s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[6.646s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[6.646s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[6.647s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[6.647s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[6.647s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[6.649s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[6.650s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[6.650s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[6.650s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[6.651s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[6.651s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[6.652s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[6.652s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[6.652s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[6.654s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[6.654s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[6.654s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[6.655s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[6.655s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[6.656s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[6.657s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[6.674s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[6.674s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[6.674s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[6.698s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[6.698s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[6.699s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libtoolbox_common.so
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libceres_solver_plugin.so
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[6.700s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[6.701s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[6.702s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[6.703s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/solver_plugins.xml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/rviz_plugins.xml
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[6.704s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[6.705s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[6.705s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[6.706s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[6.708s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[6.708s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[6.709s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[6.709s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[6.715s] -- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.dsv
+[6.715s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[6.715s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[6.715s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[6.715s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[6.716s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[6.717s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.xml
+[6.717s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[6.717s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[6.717s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[6.717s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[6.717s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[6.772s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake
+[6.772s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake
+[6.773s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[6.774s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.774s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[6.774s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[6.774s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[6.774s] -- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[6.785s] Invoked command in '/home/f1tenth/lab_ws25/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/slam_toolbox

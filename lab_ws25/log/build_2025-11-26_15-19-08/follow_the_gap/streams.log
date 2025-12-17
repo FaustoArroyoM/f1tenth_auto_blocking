@@ -1,0 +1,21 @@
+[6.843s] Invoking command in '/home/f1tenth/lab_ws25/build/follow_the_gap': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/follow_the_gap/build --no-deps symlink_data --force
+[7.793s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.793s]   warnings.warn(
+[8.073s] running develop
+[8.662s] running egg_info
+[8.698s] writing follow_the_gap.egg-info/PKG-INFO
+[8.699s] writing dependency_links to follow_the_gap.egg-info/dependency_links.txt
+[8.699s] writing entry points to follow_the_gap.egg-info/entry_points.txt
+[8.700s] writing requirements to follow_the_gap.egg-info/requires.txt
+[8.700s] writing top-level names to follow_the_gap.egg-info/top_level.txt
+[8.779s] reading manifest file 'follow_the_gap.egg-info/SOURCES.txt'
+[8.781s] writing manifest file 'follow_the_gap.egg-info/SOURCES.txt'
+[8.918s] running build_ext
+[8.918s] Creating /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow-the-gap.egg-link (link to .)
+[8.919s] Installing follow_the_gap script to /home/f1tenth/lab_ws25/install/follow_the_gap/lib/follow_the_gap
+[8.919s] 
+[8.919s] Installed /home/f1tenth/lab_ws25/build/follow_the_gap
+[8.919s] running symlink_data
+[8.920s] symbolically linking /home/f1tenth/lab_ws25/build/follow_the_gap/resource/follow_the_gap -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/ament_index/resource_index/packages
+[8.920s] symbolically linking /home/f1tenth/lab_ws25/build/follow_the_gap/package.xml -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/follow_the_gap
+[9.161s] Invoked command in '/home/f1tenth/lab_ws25/build/follow_the_gap' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/follow_the_gap/build --no-deps symlink_data --force

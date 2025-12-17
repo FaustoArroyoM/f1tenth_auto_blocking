@@ -1,0 +1,19 @@
+[3.595s] Invoking command in '/home/f1tenth/lab_ws25/build/safety_node': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build --no-deps symlink_data
+[4.275s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.275s]   warnings.warn(
+[4.547s] running develop
+[5.135s] running egg_info
+[5.171s] writing safety_node.egg-info/PKG-INFO
+[5.172s] writing dependency_links to safety_node.egg-info/dependency_links.txt
+[5.172s] writing entry points to safety_node.egg-info/entry_points.txt
+[5.172s] writing requirements to safety_node.egg-info/requires.txt
+[5.173s] writing top-level names to safety_node.egg-info/top_level.txt
+[5.250s] reading manifest file 'safety_node.egg-info/SOURCES.txt'
+[5.252s] writing manifest file 'safety_node.egg-info/SOURCES.txt'
+[5.385s] running build_ext
+[5.385s] Creating /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety-node.egg-link (link to .)
+[5.387s] Installing safety_node script to /home/f1tenth/lab_ws25/install/safety_node/lib/safety_node
+[5.387s] 
+[5.388s] Installed /home/f1tenth/lab_ws25/build/safety_node
+[5.388s] running symlink_data
+[5.570s] Invoked command in '/home/f1tenth/lab_ws25/build/safety_node' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/safety_node/build --no-deps symlink_data

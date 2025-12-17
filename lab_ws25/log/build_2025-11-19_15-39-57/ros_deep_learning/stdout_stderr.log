@@ -1,0 +1,136 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda-11.4 (found version "11.4") 
+detected ROS_DISTRO=ROS_FOXY
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+detected ROS2 (ament_cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+
+-- Build files have been written to: /home/f1tenth/lab_ws25/build/ros_deep_learning
+[35m[1mScanning dependencies of target video_source[0m
+[35m[1mScanning dependencies of target video_output[0m
+[35m[1mScanning dependencies of target detectnet[0m
+[35m[1mScanning dependencies of target imagenet[0m
+[35m[1mScanning dependencies of target segnet[0m
+[  5%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o[0m
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_imagenet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(int, float)[m[K’:
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_imagenet.cpp:93:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   93 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 40%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o[0m
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(uint32_t, uint32_t)[m[K’:
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:80:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   80 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_mask_color(uint32_t, uint32_t)[m[K’:
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:105:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  105 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_mask_class(uint32_t, uint32_t)[m[K’:
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_segnet.cpp:130:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  130 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_detectnet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(detectNet::Detection*, int)[m[K’:
+[01m[K/home/f1tenth/lab_ws25/src/ros_deep_learning/src/node_detectnet.cpp:83:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   83 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 45%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/ros_compat.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/ros_compat.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/ros_compat.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/ros_compat.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable video_output[0m
+[ 80%] [32m[1mLinking CXX executable video_source[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/ros_compat.cpp.o[0m
+[ 85%] Built target video_output
+[ 85%] Built target video_source
+[ 90%] [32m[1mLinking CXX executable segnet[0m
+[ 90%] Built target segnet
+[ 95%] [32m[1mLinking CXX executable imagenet[0m
+[100%] [32m[1mLinking CXX executable detectnet[0m
+[100%] Built target imagenet
+[100%] Built target detectnet
+-- Install configuration: ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+-- Set runtime path of "/home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/imagenet" to ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+-- Set runtime path of "/home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/detectnet" to ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/segnet
+-- Set runtime path of "/home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/segnet" to ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_source
+-- Set runtime path of "/home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_source" to ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_output
+-- Set runtime path of "/home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_output" to ""
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+-- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.xml

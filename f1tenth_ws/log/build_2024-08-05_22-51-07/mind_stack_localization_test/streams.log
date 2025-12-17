@@ -1,0 +1,76 @@
+[3.003s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/mind_stack_localization_test -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/mind_stack_localization_test
+[4.495s] -- The C compiler identification is GNU 9.4.0
+[4.495s] -- The CXX compiler identification is GNU 9.4.0
+[4.495s] -- Check for working C compiler: /usr/bin/cc
+[4.496s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.496s] -- Detecting C compiler ABI info
+[4.496s] -- Detecting C compiler ABI info - done
+[4.496s] -- Detecting C compile features
+[4.496s] -- Detecting C compile features - done
+[4.496s] -- Check for working CXX compiler: /usr/bin/c++
+[4.497s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.498s] -- Detecting CXX compiler ABI info
+[4.500s] -- Detecting CXX compiler ABI info - done
+[4.502s] -- Detecting CXX compile features
+[4.503s] -- Detecting CXX compile features - done
+[4.504s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.504s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.553s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.681s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.869s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.924s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.082s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.196s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.203s] -- Looking for pthread.h
+[5.358s] -- Looking for pthread.h - found
+[5.359s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.507s] -- Looking for pthread_create in pthreads
+[5.626s] -- Looking for pthread_create in pthreads - not found
+[5.626s] -- Looking for pthread_create in pthread
+[5.767s] -- Looking for pthread_create in pthread - found
+[5.769s] -- Found Threads: TRUE  
+[6.067s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[6.070s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.286s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[6.355s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.097s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.270s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.274s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.276s] -- Added test 'lint_cmake' to check CMake code style
+[7.276s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.283s] -- Added test 'xmllint' to check XML markup files
+[7.286s] -- Configuring done
+[7.292s] -- Generating done
+[7.295s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test
+[8.619s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/mind_stack_localization_test -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/mind_stack_localization_test
+[8.624s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test -- -j6 -l6
+[12.110s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test -- -j6 -l6
+[16.134s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test
+[16.153s] -- Install configuration: ""
+[16.153s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/pythonpath.sh
+[16.154s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/pythonpath.dsv
+[16.158s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test
+[16.158s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test/__init__.py
+[16.219s] Listing '/home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test'...
+[16.219s] Compiling '/home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/python3.8/site-packages/mind_stack_localization_test/__init__.py'...
+[16.231s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/lib/mind_stack_localization_test/mind_stack_localization_test.py
+[16.232s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/package_run_dependencies/mind_stack_localization_test
+[16.233s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/parent_prefix_path/mind_stack_localization_test
+[16.234s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/ament_prefix_path.sh
+[16.235s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/ament_prefix_path.dsv
+[16.237s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/path.sh
+[16.237s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/environment/path.dsv
+[16.238s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.bash
+[16.238s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.sh
+[16.238s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.zsh
+[16.238s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/local_setup.dsv
+[16.239s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/package.dsv
+[16.239s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/ament_index/resource_index/packages/mind_stack_localization_test
+[16.240s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/cmake/mind_stack_localization_testConfig.cmake
+[16.241s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/cmake/mind_stack_localization_testConfig-version.cmake
+[16.241s] -- Installing: /home/f1tenth/f1tenth_ws/install/mind_stack_localization_test/share/mind_stack_localization_test/package.xml
+[16.246s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mind_stack_localization_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/mind_stack_localization_test

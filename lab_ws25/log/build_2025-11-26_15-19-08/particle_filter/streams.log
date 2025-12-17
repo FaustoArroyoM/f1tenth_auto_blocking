@@ -1,0 +1,46 @@
+[6.891s] Invoking command in '/home/f1tenth/lab_ws25/build/particle_filter': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build --no-deps symlink_data --force
+[7.736s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.736s]   warnings.warn(
+[8.026s] running develop
+[8.618s] running egg_info
+[8.655s] writing particle_filter.egg-info/PKG-INFO
+[8.656s] writing dependency_links to particle_filter.egg-info/dependency_links.txt
+[8.657s] writing entry points to particle_filter.egg-info/entry_points.txt
+[8.657s] writing requirements to particle_filter.egg-info/requires.txt
+[8.657s] writing top-level names to particle_filter.egg-info/top_level.txt
+[8.738s] reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+[8.741s] writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+[8.875s] running build_ext
+[8.876s] Creating /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+[8.877s] Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter
+[8.878s] 
+[8.878s] Installed /home/f1tenth/lab_ws25/build/particle_filter
+[8.879s] running symlink_data
+[8.879s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/resource/particle_filter -> /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index/packages
+[8.879s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/package.xml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter
+[8.880s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_bigger.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.880s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/FTMHalle_ws25.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.880s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Hockenheim_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.881s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest_RAW.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.881s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/FTMHalle_ws25.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.881s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_sync.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.882s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.883s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.883s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023_old.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.884s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_async.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.884s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023_old.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.884s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_async.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.885s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Silverstone_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.885s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.885s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.886s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.886s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.886s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_sync.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.887s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Hockenheim_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.888s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor3_merged.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.889s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_bigger.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.891s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor3_merged.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.891s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Silverstone_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps
+[8.892s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/launch/localize_launch.py -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/launch
+[8.892s] symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/config/localize.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/config
+[9.106s] Invoked command in '/home/f1tenth/lab_ws25/build/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/f1tenth/lab_ws25/build/particle_filter/build --no-deps symlink_data --force

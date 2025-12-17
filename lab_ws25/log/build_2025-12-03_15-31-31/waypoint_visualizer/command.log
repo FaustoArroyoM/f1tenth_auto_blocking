@@ -1,0 +1,4 @@
+Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/waypoint_visualizer -- -j6 -l6
+Invoked command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/waypoint_visualizer -- -j6 -l6
+Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/waypoint_visualizer
+Invoked command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/waypoint_visualizer

@@ -1,0 +1,1 @@
+Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/waypoint_visualizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/waypoint_visualizer

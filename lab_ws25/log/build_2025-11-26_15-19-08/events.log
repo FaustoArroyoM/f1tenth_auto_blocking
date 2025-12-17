@@ -1,0 +1,968 @@
+[0.000000] (-) TimerEvent: {}
+[0.000647] (follow_the_gap) JobQueued: {'identifier': 'follow_the_gap', 'dependencies': OrderedDict()}
+[0.000855] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.001352] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.001645] (ros_deep_learning) JobQueued: {'identifier': 'ros_deep_learning', 'dependencies': OrderedDict()}
+[0.001906] (rrt) JobQueued: {'identifier': 'rrt', 'dependencies': OrderedDict()}
+[0.002013] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.002097] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.002191] (follow_the_gap) JobStarted: {'identifier': 'follow_the_gap'}
+[0.025771] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[0.045200] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[0.060037] (ros_deep_learning) JobStarted: {'identifier': 'ros_deep_learning'}
+[0.075067] (rrt) JobStarted: {'identifier': 'rrt'}
+[0.091511] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.099475] (-) TimerEvent: {}
+[0.200353] (-) TimerEvent: {}
+[0.301212] (-) TimerEvent: {}
+[0.402040] (-) TimerEvent: {}
+[0.502841] (-) TimerEvent: {}
+[0.603480] (-) TimerEvent: {}
+[0.704274] (-) TimerEvent: {}
+[0.805074] (-) TimerEvent: {}
+[0.905922] (-) TimerEvent: {}
+[1.006861] (-) TimerEvent: {}
+[1.107869] (-) TimerEvent: {}
+[1.208694] (-) TimerEvent: {}
+[1.309519] (-) TimerEvent: {}
+[1.410344] (-) TimerEvent: {}
+[1.511126] (-) TimerEvent: {}
+[1.611815] (-) TimerEvent: {}
+[1.712643] (-) TimerEvent: {}
+[1.813429] (-) TimerEvent: {}
+[1.861020] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[1.863580] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/lab_ws25/src/pure_pursuit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/pure_pursuit'], 'cwd': '/home/f1tenth/lab_ws25/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[1.880386] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'cmake'}
+[1.883010] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/lab_ws25/src/ros_deep_learning', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/ros_deep_learning'], 'cwd': '/home/f1tenth/lab_ws25/build/ros_deep_learning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/ros_deep_learning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[1.913684] (-) TimerEvent: {}
+[2.014520] (-) TimerEvent: {}
+[2.115167] (-) TimerEvent: {}
+[2.215798] (-) TimerEvent: {}
+[2.316437] (-) TimerEvent: {}
+[2.417084] (-) TimerEvent: {}
+[2.517741] (-) TimerEvent: {}
+[2.618385] (-) TimerEvent: {}
+[2.719010] (-) TimerEvent: {}
+[2.819671] (-) TimerEvent: {}
+[2.920367] (-) TimerEvent: {}
+[2.945324] (ros_deep_learning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.947773] (ros_deep_learning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.948471] (ros_deep_learning) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.948719] (ros_deep_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.948895] (ros_deep_learning) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.949047] (ros_deep_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.949191] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.949398] (pure_pursuit) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.949534] (pure_pursuit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.949667] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.949792] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.949942] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.950073] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.950237] (ros_deep_learning) StderrLine: {'line': b'detected ROS_DISTRO=ROS_FOXY\n'}
+[2.950440] (ros_deep_learning) StderrLine: {'line': b'detected ROS2 (ament_cmake)\n'}
+[2.985333] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.988929] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.989709] (ros_deep_learning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.992817] (ros_deep_learning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.020512] (-) TimerEvent: {}
+[3.121232] (-) TimerEvent: {}
+[3.221861] (-) TimerEvent: {}
+[3.261475] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[3.262013] (ros_deep_learning) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.262294] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.322034] (-) TimerEvent: {}
+[3.324671] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[3.422200] (-) TimerEvent: {}
+[3.458465] (pure_pursuit) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[3.466424] (ros_deep_learning) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)\n'}
+[3.522345] (-) TimerEvent: {}
+[3.524422] (pure_pursuit) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.622494] (-) TimerEvent: {}
+[3.652072] (pure_pursuit) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[3.722648] (-) TimerEvent: {}
+[3.781716] (pure_pursuit) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[3.785844] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[3.823153] (-) TimerEvent: {}
+[3.859652] (ros_deep_learning) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.923440] (-) TimerEvent: {}
+[3.941763] (ros_deep_learning) StdoutLine: {'line': b'-- Generating done\n'}
+[3.990892] (ros_deep_learning) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/lab_ws25/build/ros_deep_learning\n'}
+[4.019536] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[4.020734] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'build'}
+[4.020806] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/lab_ws25/build/ros_deep_learning', '--', '-j6', '-l6'], 'cwd': '/home/f1tenth/lab_ws25/build/ros_deep_learning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/ros_deep_learning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[4.026324] (-) TimerEvent: {}
+[4.127499] (-) TimerEvent: {}
+[4.228163] (-) TimerEvent: {}
+[4.302471] (ros_deep_learning) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable detectnet\x1b[0m\n'}
+[4.312665] (ros_deep_learning) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable video_source\x1b[0m\n'}
+[4.324415] (ros_deep_learning) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable video_output\x1b[0m\n'}
+[4.328306] (-) TimerEvent: {}
+[4.350795] (ros_deep_learning) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable imagenet\x1b[0m\n'}
+[4.356820] (ros_deep_learning) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable segnet\x1b[0m\n'}
+[4.428482] (-) TimerEvent: {}
+[4.529399] (-) TimerEvent: {}
+[4.630668] (-) TimerEvent: {}
+[4.731349] (-) TimerEvent: {}
+[4.832286] (-) TimerEvent: {}
+[4.859759] (pure_pursuit) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.932476] (-) TimerEvent: {}
+[5.008779] (pure_pursuit) StdoutLine: {'line': b'-- Generating done\n'}
+[5.032675] (-) TimerEvent: {}
+[5.060932] (pure_pursuit) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/lab_ws25/build/pure_pursuit\n'}
+[5.130987] (pure_pursuit) CommandEnded: {'returncode': 0}
+[5.133993] (-) TimerEvent: {}
+[5.134894] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[5.135076] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/lab_ws25/build/pure_pursuit', '--', '-j6', '-l6'], 'cwd': '/home/f1tenth/lab_ws25/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[5.234247] (-) TimerEvent: {}
+[5.335086] (-) TimerEvent: {}
+[5.435901] (-) TimerEvent: {}
+[5.536708] (-) TimerEvent: {}
+[5.604854] (pure_pursuit) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable waypoint_visualiser_node\x1b[0m\n'}
+[5.609387] (pure_pursuit) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_node\x1b[0m\n'}
+[5.636893] (-) TimerEvent: {}
+[5.737691] (-) TimerEvent: {}
+[5.838446] (-) TimerEvent: {}
+[5.939401] (-) TimerEvent: {}
+[6.040448] (-) TimerEvent: {}
+[6.141500] (-) TimerEvent: {}
+[6.200471] (safety_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/f1tenth/lab_ws25/build/safety_node/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/f1tenth/lab_ws25/build/safety_node', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2199', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib', 'HOME': '/home/f1tenth', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/lab_ws25/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JOURNAL_STREAM': '8:49685', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252', 'INVOCATION_ID': 'a1513b2c801949eea06be928508e2ccb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libGLdispatch.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/f1tenth/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f1tenth/lab_ws25/build/safety_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/f1tenth/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/lab_ws25/build/safety_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit'}, 'shell': False}
+[6.241724] (-) TimerEvent: {}
+[6.342796] (-) TimerEvent: {}
+[6.426662] (pure_pursuit) StdoutLine: {'line': b'[ 75%] Built target waypoint_visualiser_node\n'}
+[6.442977] (-) TimerEvent: {}
+[6.543705] (-) TimerEvent: {}
+[6.644424] (-) TimerEvent: {}
+[6.709159] (ros_deep_learning) StdoutLine: {'line': b'[ 40%] Built target video_source\n'}
+[6.744618] (-) TimerEvent: {}
+[6.781911] (rrt) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/f1tenth/lab_ws25/build/rrt/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/f1tenth/lab_ws25/build/rrt', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2199', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib', 'HOME': '/home/f1tenth', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/lab_ws25/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JOURNAL_STREAM': '8:49685', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252', 'INVOCATION_ID': 'a1513b2c801949eea06be928508e2ccb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libGLdispatch.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/f1tenth/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f1tenth/lab_ws25/build/rrt', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/f1tenth/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit'}, 'shell': False}
+[6.843368] (follow_the_gap) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/f1tenth/lab_ws25/build/follow_the_gap/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/f1tenth/lab_ws25/build/follow_the_gap', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2199', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib', 'HOME': '/home/f1tenth', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/lab_ws25/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JOURNAL_STREAM': '8:49685', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252', 'INVOCATION_ID': 'a1513b2c801949eea06be928508e2ccb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libGLdispatch.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/f1tenth/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f1tenth/lab_ws25/build/follow_the_gap', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/f1tenth/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/lab_ws25/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit'}, 'shell': False}
+[6.845862] (-) TimerEvent: {}
+[6.916070] (particle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/f1tenth/lab_ws25/build/particle_filter/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/f1tenth/lab_ws25/build/particle_filter', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2199', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib', 'HOME': '/home/f1tenth', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/lab_ws25/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JOURNAL_STREAM': '8:49685', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252', 'INVOCATION_ID': 'a1513b2c801949eea06be928508e2ccb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libGLdispatch.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/f1tenth/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f1tenth/lab_ws25/build/particle_filter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/f1tenth/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit'}, 'shell': False}
+[6.946151] (-) TimerEvent: {}
+[6.978440] (ros_deep_learning) StdoutLine: {'line': b'[ 55%] Built target video_output\n'}
+[7.046321] (-) TimerEvent: {}
+[7.146983] (-) TimerEvent: {}
+[7.219524] (ros_deep_learning) StdoutLine: {'line': b'[ 70%] Built target imagenet\n'}
+[7.228118] (safety_node) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.228625] (safety_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.247145] (-) TimerEvent: {}
+[7.347877] (-) TimerEvent: {}
+[7.349629] (ros_deep_learning) StdoutLine: {'line': b'[ 85%] Built target detectnet\n'}
+[7.353612] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target pure_pursuit_node\n'}
+[7.370505] (ros_deep_learning) StdoutLine: {'line': b'[100%] Built target segnet\n'}
+[7.384670] (pure_pursuit) CommandEnded: {'returncode': 0}
+[7.387020] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[7.413145] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/lab_ws25/build/pure_pursuit'], 'cwd': '/home/f1tenth/lab_ws25/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[7.425829] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[7.427577] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'install'}
+[7.428140] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/lab_ws25/build/ros_deep_learning'], 'cwd': '/home/f1tenth/lab_ws25/build/ros_deep_learning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/ros_deep_learning'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[7.440612] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.441444] (pure_pursuit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.442266] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node\n'}
+[7.448032] (-) TimerEvent: {}
+[7.464963] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/waypoint_visualiser_node\n'}
+[7.486761] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz\n'}
+[7.508108] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py\n'}
+[7.530370] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz\n'}
+[7.548057] (safety_node) StdoutLine: {'line': b'running develop\n'}
+[7.548620] (-) TimerEvent: {}
+[7.552169] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py\n'}
+[7.574401] (rrt) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.574951] (rrt) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.575137] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/config.yaml\n'}
+[7.596275] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml\n'}
+[7.619280] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[7.643927] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[7.648772] (-) TimerEvent: {}
+[7.670856] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[7.692404] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[7.713814] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[7.735911] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[7.748948] (-) TimerEvent: {}
+[7.758083] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[7.761562] (particle_filter) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.762134] (particle_filter) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.780350] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[7.794962] (follow_the_gap) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.795532] (follow_the_gap) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.803106] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[7.826466] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[7.849113] (-) TimerEvent: {}
+[7.849716] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[7.873494] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[7.896287] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[7.900920] (rrt) StdoutLine: {'line': b'running develop\n'}
+[7.917435] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[7.936722] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[7.949256] (-) TimerEvent: {}
+[7.963160] (ros_deep_learning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.963623] (ros_deep_learning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.963802] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/imagenet\n'}
+[7.963957] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/detectnet\n'}
+[7.964104] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/segnet\n'}
+[7.964241] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_source\n'}
+[7.964373] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_output\n'}
+[7.964503] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch\n'}
+[7.964631] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch\n'}
+[7.964755] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch\n'}
+[7.964880] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch\n'}
+[7.965004] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch\n'}
+[7.965128] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch\n'}
+[7.965287] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch\n'}
+[7.965414] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch\n'}
+[7.965538] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch\n'}
+[7.965660] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch\n'}
+[7.965782] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch\n'}
+[7.965907] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch\n'}
+[7.966027] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning\n'}
+[7.974314] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning\n'}
+[7.974605] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh\n'}
+[7.974795] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv\n'}
+[7.974984] (pure_pursuit) CommandEnded: {'returncode': 0}
+[7.976098] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh\n'}
+[7.996657] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv\n'}
+[8.013735] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[8.015735] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[8.021813] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash\n'}
+[8.049573] (-) TimerEvent: {}
+[8.051827] (particle_filter) StdoutLine: {'line': b'running develop\n'}
+[8.058718] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh\n'}
+[8.065451] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[8.071073] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/lab_ws25/src/slam_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/slam_toolbox'], 'cwd': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/slam_toolbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[8.074640] (follow_the_gap) StdoutLine: {'line': b'running develop\n'}
+[8.099203] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh\n'}
+[8.134367] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv\n'}
+[8.149689] (-) TimerEvent: {}
+[8.152460] (safety_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.184214] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.dsv\n'}
+[8.189936] (safety_node) StdoutLine: {'line': b'writing safety_node.egg-info/PKG-INFO\n'}
+[8.191412] (safety_node) StdoutLine: {'line': b'writing dependency_links to safety_node.egg-info/dependency_links.txt\n'}
+[8.192541] (safety_node) StdoutLine: {'line': b'writing entry points to safety_node.egg-info/entry_points.txt\n'}
+[8.193354] (safety_node) StdoutLine: {'line': b'writing requirements to safety_node.egg-info/requires.txt\n'}
+[8.193995] (safety_node) StdoutLine: {'line': b'writing top-level names to safety_node.egg-info/top_level.txt\n'}
+[8.207302] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning\n'}
+[8.229898] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake\n'}
+[8.249850] (-) TimerEvent: {}
+[8.253258] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake\n'}
+[8.274088] (safety_node) StdoutLine: {'line': b"reading manifest file 'safety_node.egg-info/SOURCES.txt'\n"}
+[8.276575] (safety_node) StdoutLine: {'line': b"writing manifest file 'safety_node.egg-info/SOURCES.txt'\n"}
+[8.276969] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.xml\n'}
+[8.307027] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.307507] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.307678] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.313753] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[8.339411] (ros_deep_learning) JobEnded: {'identifier': 'ros_deep_learning', 'rc': 0}
+[8.349952] (-) TimerEvent: {}
+[8.425435] (safety_node) StdoutLine: {'line': b'running build_ext\n'}
+[8.425973] (safety_node) StdoutLine: {'line': b'Creating /home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages/safety-node.egg-link (link to .)\n'}
+[8.427630] (safety_node) StdoutLine: {'line': b'Installing safety_node script to /home/f1tenth/lab_ws25/install/safety_node/lib/safety_node\n'}
+[8.428738] (safety_node) StdoutLine: {'line': b'\n'}
+[8.429108] (safety_node) StdoutLine: {'line': b'Installed /home/f1tenth/lab_ws25/build/safety_node\n'}
+[8.429605] (safety_node) StdoutLine: {'line': b'running symlink_data\n'}
+[8.430373] (safety_node) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/safety_node/resource/safety_node -> /home/f1tenth/lab_ws25/install/safety_node/share/ament_index/resource_index/packages\n'}
+[8.431291] (safety_node) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/safety_node/package.xml -> /home/f1tenth/lab_ws25/install/safety_node/share/safety_node\n'}
+[8.450202] (-) TimerEvent: {}
+[8.550876] (-) TimerEvent: {}
+[8.582148] (safety_node) CommandEnded: {'returncode': 0}
+[8.616662] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[8.641921] (rrt) StdoutLine: {'line': b'running egg_info\n'}
+[8.644352] (particle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[8.651038] (-) TimerEvent: {}
+[8.664375] (follow_the_gap) StdoutLine: {'line': b'running egg_info\n'}
+[8.681103] (particle_filter) StdoutLine: {'line': b'writing particle_filter.egg-info/PKG-INFO\n'}
+[8.682010] (particle_filter) StdoutLine: {'line': b'writing dependency_links to particle_filter.egg-info/dependency_links.txt\n'}
+[8.682654] (particle_filter) StdoutLine: {'line': b'writing entry points to particle_filter.egg-info/entry_points.txt\n'}
+[8.682966] (particle_filter) StdoutLine: {'line': b'writing requirements to particle_filter.egg-info/requires.txt\n'}
+[8.683309] (particle_filter) StdoutLine: {'line': b'writing top-level names to particle_filter.egg-info/top_level.txt\n'}
+[8.687023] (rrt) StdoutLine: {'line': b'writing rrt.egg-info/PKG-INFO\n'}
+[8.688430] (rrt) StdoutLine: {'line': b'writing dependency_links to rrt.egg-info/dependency_links.txt\n'}
+[8.689202] (rrt) StdoutLine: {'line': b'writing entry points to rrt.egg-info/entry_points.txt\n'}
+[8.689665] (rrt) StdoutLine: {'line': b'writing requirements to rrt.egg-info/requires.txt\n'}
+[8.690073] (rrt) StdoutLine: {'line': b'writing top-level names to rrt.egg-info/top_level.txt\n'}
+[8.700086] (follow_the_gap) StdoutLine: {'line': b'writing follow_the_gap.egg-info/PKG-INFO\n'}
+[8.700708] (follow_the_gap) StdoutLine: {'line': b'writing dependency_links to follow_the_gap.egg-info/dependency_links.txt\n'}
+[8.701266] (follow_the_gap) StdoutLine: {'line': b'writing entry points to follow_the_gap.egg-info/entry_points.txt\n'}
+[8.701642] (follow_the_gap) StdoutLine: {'line': b'writing requirements to follow_the_gap.egg-info/requires.txt\n'}
+[8.702053] (follow_the_gap) StdoutLine: {'line': b'writing top-level names to follow_the_gap.egg-info/top_level.txt\n'}
+[8.750607] (slam_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.751118] (-) TimerEvent: {}
+[8.764305] (particle_filter) StdoutLine: {'line': b"reading manifest file 'particle_filter.egg-info/SOURCES.txt'\n"}
+[8.766944] (particle_filter) StdoutLine: {'line': b"writing manifest file 'particle_filter.egg-info/SOURCES.txt'\n"}
+[8.767512] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[8.772804] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[8.781434] (follow_the_gap) StdoutLine: {'line': b"reading manifest file 'follow_the_gap.egg-info/SOURCES.txt'\n"}
+[8.783398] (follow_the_gap) StdoutLine: {'line': b"writing manifest file 'follow_the_gap.egg-info/SOURCES.txt'\n"}
+[8.788973] (rrt) StdoutLine: {'line': b"reading manifest file 'rrt.egg-info/SOURCES.txt'\n"}
+[8.791383] (rrt) StdoutLine: {'line': b"writing manifest file 'rrt.egg-info/SOURCES.txt'\n"}
+[8.813807] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.820212] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.851238] (-) TimerEvent: {}
+[8.901156] (particle_filter) StdoutLine: {'line': b'running build_ext\n'}
+[8.901871] (particle_filter) StdoutLine: {'line': b'Creating /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)\n'}
+[8.903243] (particle_filter) StdoutLine: {'line': b'Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter\n'}
+[8.903922] (particle_filter) StdoutLine: {'line': b'\n'}
+[8.904234] (particle_filter) StdoutLine: {'line': b'Installed /home/f1tenth/lab_ws25/build/particle_filter\n'}
+[8.904666] (particle_filter) StdoutLine: {'line': b'running symlink_data\n'}
+[8.904957] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/resource/particle_filter -> /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index/packages\n'}
+[8.905372] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/package.xml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter\n'}
+[8.905642] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_bigger.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.906065] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/FTMHalle_ws25.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.906491] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Hockenheim_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.906756] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest_RAW.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.907003] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/FTMHalle_ws25.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.907244] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_sync.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.907685] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.908194] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.909075] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023_old.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.909625] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_async.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.910205] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023_old.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.910605] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_async.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.910896] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Silverstone_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.911147] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_biggest.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.911385] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.911660] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.911895] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/cps_2023.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.912175] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/map1_sync.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.912805] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Hockenheim_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.913228] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor3_merged.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.914620] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor5_bigger.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.916019] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/e7_floor3_merged.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.916999] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/maps/Silverstone_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[8.917856] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/launch/localize_launch.py -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/launch\n'}
+[8.918452] (particle_filter) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/particle_filter/config/localize.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/config\n'}
+[8.919203] (follow_the_gap) StdoutLine: {'line': b'running build_ext\n'}
+[8.920278] (follow_the_gap) StdoutLine: {'line': b'Creating /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow-the-gap.egg-link (link to .)\n'}
+[8.920643] (follow_the_gap) StdoutLine: {'line': b'Installing follow_the_gap script to /home/f1tenth/lab_ws25/install/follow_the_gap/lib/follow_the_gap\n'}
+[8.920989] (follow_the_gap) StdoutLine: {'line': b'\n'}
+[8.921245] (follow_the_gap) StdoutLine: {'line': b'Installed /home/f1tenth/lab_ws25/build/follow_the_gap\n'}
+[8.921528] (follow_the_gap) StdoutLine: {'line': b'running symlink_data\n'}
+[8.921768] (follow_the_gap) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/follow_the_gap/resource/follow_the_gap -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/ament_index/resource_index/packages\n'}
+[8.922004] (follow_the_gap) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/follow_the_gap/package.xml -> /home/f1tenth/lab_ws25/install/follow_the_gap/share/follow_the_gap\n'}
+[8.940236] (rrt) StdoutLine: {'line': b'running build_ext\n'}
+[8.940774] (rrt) StdoutLine: {'line': b'Creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt.egg-link (link to .)\n'}
+[8.943695] (rrt) StdoutLine: {'line': b'Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt\n'}
+[8.945033] (rrt) StdoutLine: {'line': b'\n'}
+[8.945881] (rrt) StdoutLine: {'line': b'Installed /home/f1tenth/lab_ws25/build/rrt\n'}
+[8.946782] (rrt) StdoutLine: {'line': b'running symlink_data\n'}
+[8.947146] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/resource/rrt -> /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages\n'}
+[8.947404] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/package.xml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt\n'}
+[8.947646] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/traj_race_cl_shortest_path_left.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines\n'}
+[8.947998] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/traj_race_cl_shortest_path_right.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines\n'}
+[8.948334] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/e7_floor5.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines\n'}
+[8.948665] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/FTMHalle_clean.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines\n'}
+[8.949033] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/rrt.rviz -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch\n'}
+[8.949362] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/sim_rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch\n'}
+[8.949686] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch\n'}
+[8.950043] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/config/config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config\n'}
+[8.950416] (rrt) StdoutLine: {'line': b'symbolically linking /home/f1tenth/lab_ws25/build/rrt/config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config\n'}
+[8.951328] (-) TimerEvent: {}
+[9.052342] (-) TimerEvent: {}
+[9.087916] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.129102] (particle_filter) CommandEnded: {'returncode': 0}
+[9.153105] (-) TimerEvent: {}
+[9.157502] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 0}
+[9.162304] (follow_the_gap) CommandEnded: {'returncode': 0}
+[9.183203] (follow_the_gap) JobEnded: {'identifier': 'follow_the_gap', 'rc': 0}
+[9.186954] (rrt) CommandEnded: {'returncode': 0}
+[9.203305] (rrt) JobEnded: {'identifier': 'rrt', 'rc': 0}
+[9.253262] (-) TimerEvent: {}
+[9.353900] (-) TimerEvent: {}
+[9.383438] (slam_toolbox) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.448937] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.451821] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.453952] (-) TimerEvent: {}
+[9.554406] (-) TimerEvent: {}
+[9.654987] (-) TimerEvent: {}
+[9.688101] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.755117] (-) TimerEvent: {}
+[9.814034] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[9.831157] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.855219] (-) TimerEvent: {}
+[9.955662] (-) TimerEvent: {}
+[10.056161] (-) TimerEvent: {}
+[10.156682] (-) TimerEvent: {}
+[10.257153] (-) TimerEvent: {}
+[10.357663] (-) TimerEvent: {}
+[10.398294] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[10.457804] (-) TimerEvent: {}
+[10.526719] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[10.557961] (-) TimerEvent: {}
+[10.561125] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[10.572920] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[10.620640] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[10.650257] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[10.658037] (-) TimerEvent: {}
+[10.670308] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[10.691112] (slam_toolbox) StdoutLine: {'line': b'-- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)\n'}
+[10.694462] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[10.725433] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[10.730431] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[10.730775] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[10.730939] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[10.731083] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[10.731263] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[10.731406] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[10.731539] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[10.731665] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[10.731791] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[10.731912] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[10.732086] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[10.732210] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[10.732331] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[10.758175] (-) TimerEvent: {}
+[10.814869] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[10.815500] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[10.819402] (slam_toolbox) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[10.858306] (-) TimerEvent: {}
+[10.865851] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[10.958449] (-) TimerEvent: {}
+[11.003514] (slam_toolbox) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[11.009972] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[11.058558] (-) TimerEvent: {}
+[11.159113] (-) TimerEvent: {}
+[11.259706] (-) TimerEvent: {}
+[11.360306] (-) TimerEvent: {}
+[11.460927] (-) TimerEvent: {}
+[11.561513] (-) TimerEvent: {}
+[11.662069] (-) TimerEvent: {}
+[11.762636] (-) TimerEvent: {}
+[11.863344] (-) TimerEvent: {}
+[11.891631] (slam_toolbox) StdoutLine: {'line': b'-- A library with LAPACK API found.\n'}
+[11.895230] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[11.897454] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[11.900186] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[11.905140] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/aarch64-linux-gnu/cmake/gflags\n'}
+[11.905571] (slam_toolbox) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[11.907640] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[11.909133] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[11.963432] (-) TimerEvent: {}
+[11.989540] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[12.063556] (-) TimerEvent: {}
+[12.164094] (-) TimerEvent: {}
+[12.264670] (-) TimerEvent: {}
+[12.365289] (-) TimerEvent: {}
+[12.466016] (-) TimerEvent: {}
+[12.552800] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[12.566126] (-) TimerEvent: {}
+[12.666766] (-) TimerEvent: {}
+[12.767521] (-) TimerEvent: {}
+[12.868219] (-) TimerEvent: {}
+[12.968952] (-) TimerEvent: {}
+[13.069590] (-) TimerEvent: {}
+[13.115701] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.169689] (-) TimerEvent: {}
+[13.270230] (-) TimerEvent: {}
+[13.370850] (-) TimerEvent: {}
+[13.377749] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.439092] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[13.440201] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[13.470957] (-) TimerEvent: {}
+[13.494372] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.494872] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[13.495086] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[13.571124] (-) TimerEvent: {}
+[13.671675] (-) TimerEvent: {}
+[13.772241] (-) TimerEvent: {}
+[13.772832] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.872477] (-) TimerEvent: {}
+[13.973571] (-) TimerEvent: {}
+[14.074359] (-) TimerEvent: {}
+[14.175009] (-) TimerEvent: {}
+[14.275751] (-) TimerEvent: {}
+[14.354672] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[14.375840] (-) TimerEvent: {}
+[14.476378] (-) TimerEvent: {}
+[14.536031] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/lab_ws25/build/slam_toolbox\n'}
+[14.576500] (-) TimerEvent: {}
+[14.584731] (slam_toolbox) CommandEnded: {'returncode': 0}
+[14.586307] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[14.587711] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/lab_ws25/build/slam_toolbox', '--', '-j6', '-l6'], 'cwd': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/slam_toolbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[14.676750] (-) TimerEvent: {}
+[14.727631] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target slam_toolbox__cpp\n'}
+[14.729014] (slam_toolbox) StdoutLine: {'line': b'[ 10%] Built target slam_toolbox__rosidl_generator_c\n'}
+[14.745611] (slam_toolbox) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libkartoSlamToolbox.so\x1b[0m\n'}
+[14.776956] (-) TimerEvent: {}
+[14.784927] (slam_toolbox) StdoutLine: {'line': b'[ 29%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[14.785662] (slam_toolbox) StdoutLine: {'line': b'[ 29%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[14.792434] (slam_toolbox) StdoutLine: {'line': b'[ 38%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[14.800109] (slam_toolbox) StdoutLine: {'line': b'[ 47%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[14.800760] (slam_toolbox) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.877132] (-) TimerEvent: {}
+[14.977832] (-) TimerEvent: {}
+[14.994766] (slam_toolbox) StdoutLine: {'line': b'[ 56%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[15.068389] (slam_toolbox) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.077944] (-) TimerEvent: {}
+[15.178576] (-) TimerEvent: {}
+[15.236897] (slam_toolbox) StdoutLine: {'line': b'[ 65%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[15.278762] (-) TimerEvent: {}
+[15.285010] (slam_toolbox) StdoutLine: {'line': b'[ 65%] Built target slam_toolbox\n'}
+[15.335597] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target slam_toolbox__py\n'}
+[15.378960] (-) TimerEvent: {}
+[15.389960] (slam_toolbox) StdoutLine: {'line': b'[ 68%] Built target SlamToolboxPlugin\n'}
+[15.404573] (slam_toolbox) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__python.so\x1b[0m\n'}
+[15.479199] (-) TimerEvent: {}
+[15.506520] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target slam_toolbox__python\n'}
+[15.567516] (slam_toolbox) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.568236] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.568598] (slam_toolbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[15.579349] (-) TimerEvent: {}
+[15.602566] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target kartoSlamToolbox\n'}
+[15.664162] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[15.664821] (slam_toolbox) StdoutLine: {'line': b'[ 80%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[15.679529] (-) TimerEvent: {}
+[15.703554] (slam_toolbox) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libceres_solver_plugin.so\x1b[0m\n'}
+[15.719063] (slam_toolbox) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libtoolbox_common.so\x1b[0m\n'}
+[15.722191] (slam_toolbox) StdoutLine: {'line': b'[ 82%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.779728] (-) TimerEvent: {}
+[15.880384] (-) TimerEvent: {}
+[15.981032] (-) TimerEvent: {}
+[16.081665] (-) TimerEvent: {}
+[16.182384] (-) TimerEvent: {}
+[16.283051] (-) TimerEvent: {}
+[16.383755] (-) TimerEvent: {}
+[16.484556] (-) TimerEvent: {}
+[16.585368] (-) TimerEvent: {}
+[16.686160] (-) TimerEvent: {}
+[16.786919] (-) TimerEvent: {}
+[16.797646] (slam_toolbox) StdoutLine: {'line': b'[ 83%] Built target ceres_solver_plugin\n'}
+[16.887047] (-) TimerEvent: {}
+[16.987808] (-) TimerEvent: {}
+[17.088552] (-) TimerEvent: {}
+[17.189238] (-) TimerEvent: {}
+[17.289886] (-) TimerEvent: {}
+[17.390586] (-) TimerEvent: {}
+[17.393323] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target toolbox_common\n'}
+[17.483658] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_slam_toolbox.so\x1b[0m\n'}
+[17.484216] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable merge_maps_kinematic\x1b[0m\n'}
+[17.484405] (slam_toolbox) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libsync_slam_toolbox.so\x1b[0m\n'}
+[17.486670] (slam_toolbox) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library liblifelong_slam_toolbox.so\x1b[0m\n'}
+[17.489972] (slam_toolbox) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libasync_slam_toolbox.so\x1b[0m\n'}
+[17.490656] (-) TimerEvent: {}
+[17.591482] (-) TimerEvent: {}
+[17.692288] (-) TimerEvent: {}
+[17.793337] (-) TimerEvent: {}
+[17.894148] (-) TimerEvent: {}
+[17.994911] (-) TimerEvent: {}
+[18.096150] (-) TimerEvent: {}
+[18.197534] (-) TimerEvent: {}
+[18.299147] (-) TimerEvent: {}
+[18.400694] (-) TimerEvent: {}
+[18.501770] (-) TimerEvent: {}
+[18.603695] (-) TimerEvent: {}
+[18.705251] (-) TimerEvent: {}
+[18.806219] (-) TimerEvent: {}
+[18.852527] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target lifelong_slam_toolbox\n'}
+[18.898262] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target sync_slam_toolbox\n'}
+[18.906469] (-) TimerEvent: {}
+[18.952777] (slam_toolbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable lifelong_slam_toolbox_node\x1b[0m\n'}
+[18.965126] (slam_toolbox) StdoutLine: {'line': b'[ 94%] Built target async_slam_toolbox\n'}
+[19.000508] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable sync_slam_toolbox_node\x1b[0m\n'}
+[19.006638] (-) TimerEvent: {}
+[19.065573] (slam_toolbox) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable async_slam_toolbox_node\x1b[0m\n'}
+[19.093108] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target localization_slam_toolbox\n'}
+[19.106860] (-) TimerEvent: {}
+[19.200578] (slam_toolbox) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable localization_slam_toolbox_node\x1b[0m\n'}
+[19.207049] (-) TimerEvent: {}
+[19.307830] (-) TimerEvent: {}
+[19.409069] (-) TimerEvent: {}
+[19.510346] (-) TimerEvent: {}
+[19.611212] (-) TimerEvent: {}
+[19.712202] (-) TimerEvent: {}
+[19.813011] (-) TimerEvent: {}
+[19.870323] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target merge_maps_kinematic\n'}
+[19.913200] (-) TimerEvent: {}
+[20.014163] (-) TimerEvent: {}
+[20.114874] (-) TimerEvent: {}
+[20.215638] (-) TimerEvent: {}
+[20.316354] (-) TimerEvent: {}
+[20.417096] (-) TimerEvent: {}
+[20.517867] (-) TimerEvent: {}
+[20.618823] (-) TimerEvent: {}
+[20.620899] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target lifelong_slam_toolbox_node\n'}
+[20.701721] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target sync_slam_toolbox_node\n'}
+[20.718997] (-) TimerEvent: {}
+[20.733917] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target async_slam_toolbox_node\n'}
+[20.819167] (-) TimerEvent: {}
+[20.919843] (-) TimerEvent: {}
+[20.977187] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target localization_slam_toolbox_node\n'}
+[21.005751] (slam_toolbox) CommandEnded: {'returncode': 0}
+[21.008846] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[21.010475] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/lab_ws25/build/slam_toolbox'], 'cwd': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:49685'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2252,unix/ubuntu:/tmp/.ICE-unix/2252'), ('INVOCATION_ID', 'a1513b2c801949eea06be928508e2ccb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0ee7fb1_1a3c_4192_b975_3f37730c3a65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/slam_toolbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit')]), 'shell': False}
+[21.019999] (-) TimerEvent: {}
+[21.037935] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.039480] (slam_toolbox) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.040497] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[21.060857] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[21.080858] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[21.101120] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[21.120089] (-) TimerEvent: {}
+[21.120832] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[21.140940] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[21.160763] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[21.183612] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[21.204354] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.sh\n'}
+[21.220209] (-) TimerEvent: {}
+[21.224102] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv\n'}
+[21.245823] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk\n'}
+[21.266687] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk\n'}
+[21.287826] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh\n'}
+[21.307257] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv\n'}
+[21.320318] (-) TimerEvent: {}
+[21.326840] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.sh\n'}
+[21.347109] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.dsv\n'}
+[21.367192] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.bash\n'}
+[21.387222] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.sh\n'}
+[21.408481] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.zsh\n'}
+[21.420457] (-) TimerEvent: {}
+[21.427777] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.dsv\n'}
+[21.448420] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.dsv\n'}
+[21.469671] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk\n'}
+[21.490838] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.511164] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.520589] (-) TimerEvent: {}
+[21.531032] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.550539] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake\n'}
+[21.570677] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake\n'}
+[21.591063] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.xml\n'}
+[21.611580] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[21.620680] (-) TimerEvent: {}
+[21.632903] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.653087] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h\n'}
+[21.673959] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.h\n'}
+[21.695088] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h\n'}
+[21.714973] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[21.720788] (-) TimerEvent: {}
+[21.734055] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[21.754799] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[21.775332] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[21.794964] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h\n'}
+[21.815079] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h\n'}
+[21.820891] (-) TimerEvent: {}
+[21.834140] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[21.853803] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[21.874700] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[21.893768] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[21.913702] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[21.921008] (-) TimerEvent: {}
+[21.933755] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[21.954547] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[21.976785] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[21.996796] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[22.015949] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[22.021103] (-) TimerEvent: {}
+[22.035335] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[22.055055] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[22.074662] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[22.093820] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h\n'}
+[22.113518] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h\n'}
+[22.121232] (-) TimerEvent: {}
+[22.132836] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[22.152372] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[22.172231] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[22.192227] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[22.211381] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[22.221349] (-) TimerEvent: {}
+[22.230052] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[22.249517] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[22.268953] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[22.288590] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[22.308503] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[22.321496] (-) TimerEvent: {}
+[22.327356] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h\n'}
+[22.346642] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h\n'}
+[22.366090] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.h\n'}
+[22.386800] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.h\n'}
+[22.407179] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[22.421589] (-) TimerEvent: {}
+[22.427956] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h\n'}
+[22.447392] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[22.468166] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[22.490279] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.510649] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[22.521687] (-) TimerEvent: {}
+[22.531297] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[22.550534] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[22.569574] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[22.588586] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[22.606873] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[22.621805] (-) TimerEvent: {}
+[22.626571] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[22.645716] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[22.665808] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[22.685660] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[22.706913] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[22.721942] (-) TimerEvent: {}
+[22.729091] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.748535] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.768385] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.787801] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.805934] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.822052] (-) TimerEvent: {}
+[22.825505] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.843791] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.862384] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.881998] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.901399] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.919311] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.922168] (-) TimerEvent: {}
+[22.938474] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.961053] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.979196] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[22.999937] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[23.019597] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[23.022273] (-) TimerEvent: {}
+[23.038858] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[23.058432] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[23.077802] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[23.097346] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[23.118344] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[23.122381] (-) TimerEvent: {}
+[23.137497] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[23.159016] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[23.181887] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.201247] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp\n'}
+[23.219672] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp\n'}
+[23.222483] (-) TimerEvent: {}
+[23.238636] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp\n'}
+[23.258692] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[23.277941] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[23.297776] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[23.317111] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[23.322594] (-) TimerEvent: {}
+[23.336336] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.hpp\n'}
+[23.358330] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[23.379003] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[23.397891] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[23.417452] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.hpp\n'}
+[23.422690] (-) TimerEvent: {}
+[23.438286] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[23.457802] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[23.479261] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[23.499336] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.hpp\n'}
+[23.517970] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[23.522782] (-) TimerEvent: {}
+[23.537271] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[23.558208] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[23.578749] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp\n'}
+[23.599224] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[23.618397] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[23.622907] (-) TimerEvent: {}
+[23.637145] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[23.656533] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.hpp\n'}
+[23.676461] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[23.695980] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[23.717479] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[23.723007] (-) TimerEvent: {}
+[23.737130] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.hpp\n'}
+[23.756670] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[23.777843] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[23.797925] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[23.816950] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.hpp\n'}
+[23.823106] (-) TimerEvent: {}
+[23.836389] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[23.856121] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[23.875992] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[23.896213] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.hpp\n'}
+[23.915307] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[23.923243] (-) TimerEvent: {}
+[23.936357] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[23.956011] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[23.976457] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp\n'}
+[23.995636] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[24.014283] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[24.023344] (-) TimerEvent: {}
+[24.033552] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[24.052976] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp\n'}
+[24.073195] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp\n'}
+[24.092442] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp\n'}
+[24.112510] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp\n'}
+[24.123448] (-) TimerEvent: {}
+[24.132229] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp\n'}
+[24.151828] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[24.173521] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[24.196336] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.216714] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.223556] (-) TimerEvent: {}
+[24.236032] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.256032] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.275551] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.296201] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.315120] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.323682] (-) TimerEvent: {}
+[24.335045] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.355098] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.374467] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.395586] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[24.418096] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[24.423810] (-) TimerEvent: {}
+[24.438968] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py\n'}
+[24.460138] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/__init__.py\n'}
+[24.479844] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap.py\n'}
+[24.497881] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear.py\n'}
+[24.517441] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[24.523920] (-) TimerEvent: {}
+[24.536540] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[24.555120] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[24.575537] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[24.595268] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause.py\n'}
+[24.613936] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map.py\n'}
+[24.624025] (-) TimerEvent: {}
+[24.634128] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[24.654796] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[24.676823] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[24.696441] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[24.717995] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[24.724143] (-) TimerEvent: {}
+[24.740020] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__python.so\n'}
+[24.761002] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[24.780956] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[24.800696] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[24.821088] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[24.824269] (-) TimerEvent: {}
+[24.840511] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[24.860044] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[24.880106] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[24.899737] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[24.920620] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[24.924355] (-) TimerEvent: {}
+[24.940106] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[24.961136] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[24.980844] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[25.000772] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[25.019987] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[25.024531] (-) TimerEvent: {}
+[25.039061] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[25.059220] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[25.081047] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[25.100695] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[25.119683] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[25.124619] (-) TimerEvent: {}
+[25.140038] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[25.160041] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[25.180127] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[25.201769] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[25.222359] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[25.224719] (-) TimerEvent: {}
+[25.243339] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[25.263586] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[25.283941] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[25.303652] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[25.323794] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[25.324824] (-) TimerEvent: {}
+[25.343004] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[25.363474] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[25.383621] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[25.404849] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[25.424482] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[25.424913] (-) TimerEvent: {}
+[25.445101] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[25.464926] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[25.486592] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[25.507331] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[25.525062] (-) TimerEvent: {}
+[25.527098] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[25.548909] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[25.569061] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml\n'}
+[25.588068] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml\n'}
+[25.609045] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[25.625170] (-) TimerEvent: {}
+[25.628263] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[25.647723] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[25.667973] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node\n'}
+[25.687523] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[25.707612] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[25.725298] (-) TimerEvent: {}
+[25.727204] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[25.747861] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[25.767403] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[25.787084] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[25.806988] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[25.825436] (-) TimerEvent: {}
+[25.827386] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[25.849034] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[25.868636] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[25.887881] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[25.906402] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[25.925579] (-) TimerEvent: {}
+[25.926034] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[25.945604] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[25.964195] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[25.984085] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[26.003799] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[26.023462] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[26.025676] (-) TimerEvent: {}
+[26.041887] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[26.062224] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[26.081586] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[26.102720] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[26.121939] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[26.125777] (-) TimerEvent: {}
+[26.141606] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[26.163616] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py\n'}
+[26.182803] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[26.202657] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[26.221788] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[26.225878] (-) TimerEvent: {}
+[26.243247] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[26.263138] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[26.284031] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[26.303726] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[26.323201] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[26.325979] (-) TimerEvent: {}
+[26.343097] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[26.363261] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[26.382757] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/solver_plugins.xml\n'}
+[26.402811] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[26.423088] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[26.426077] (-) TimerEvent: {}
+[26.442896] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[26.463681] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[26.483235] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[26.503789] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[26.523799] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[26.526164] (-) TimerEvent: {}
+[26.544338] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[26.567280] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[26.588151] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[26.608564] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[26.626307] (-) TimerEvent: {}
+[26.630390] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[26.649867] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[26.670475] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[26.691406] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[26.712526] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[26.726457] (-) TimerEvent: {}
+[26.733430] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.753785] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.774936] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.795544] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.816508] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.826570] (-) TimerEvent: {}
+[26.837798] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.859855] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[26.880109] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[26.900588] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[26.920556] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[26.921269] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[26.921994] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[26.923152] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[26.924375] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[26.926647] (-) TimerEvent: {}
+[26.992625] (slam_toolbox) StdoutLine: {'line': b"Compiling '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py'...\n"}
+[27.003465] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[27.004057] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[27.004469] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.004792] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[27.005186] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[27.005454] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[27.005767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[27.006156] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.006431] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[27.006864] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[27.007192] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[27.008046] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[27.008359] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[27.016287] (slam_toolbox) CommandEnded: {'returncode': 0}
+[27.026830] (-) TimerEvent: {}
+[27.075062] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[27.077631] (-) EventReactorShutdown: {}

@@ -1,0 +1,59 @@
+[1.783s] Invoking command in '/home/f1tenth/lab_ws25/build/ros_deep_learning': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/ros_deep_learning -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/ros_deep_learning
+[2.673s] detected ROS_DISTRO=ROS_FOXY
+[2.673s] detected ROS2 (ament_cmake)
+[2.674s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.675s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.678s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.834s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.113s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.336s] -- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)
+[3.802s] -- Configuring done
+[3.882s] -- Generating done
+[3.960s] -- Build files have been written to: /home/f1tenth/lab_ws25/build/ros_deep_learning
+[3.971s] Invoked command in '/home/f1tenth/lab_ws25/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/ros_deep_learning -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/ros_deep_learning
+[3.972s] Invoking command in '/home/f1tenth/lab_ws25/build/ros_deep_learning': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/ros_deep_learning -- -j6 -l6
+[4.217s] [ 20%] Built target detectnet
+[4.227s] [ 40%] Built target imagenet
+[4.241s] [ 60%] Built target video_source
+[4.247s] [ 80%] Built target video_output
+[4.256s] [100%] Built target segnet
+[4.284s] Invoked command in '/home/f1tenth/lab_ws25/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/ros_deep_learning -- -j6 -l6
+[4.291s] Invoking command in '/home/f1tenth/lab_ws25/build/ros_deep_learning': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/ros_deep_learning
+[4.316s] -- Install configuration: ""
+[4.316s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[4.318s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[4.318s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[4.319s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[4.320s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[4.320s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch
+[4.320s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[4.321s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[4.321s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[4.321s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[4.321s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[4.322s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[4.322s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[4.322s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[4.322s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[4.322s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[4.323s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[4.323s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[4.323s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[4.323s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[4.323s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[4.324s] -- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[4.324s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[4.324s] -- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[4.325s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[4.326s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[4.326s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[4.328s] -- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[4.328s] -- Installing: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[4.328s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[4.329s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[4.329s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[4.329s] -- Up-to-date: /home/f1tenth/lab_ws25/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[4.335s] Invoked command in '/home/f1tenth/lab_ws25/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/ros_deep_learning

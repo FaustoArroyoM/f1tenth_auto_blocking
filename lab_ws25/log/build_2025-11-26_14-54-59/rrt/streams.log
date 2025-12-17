@@ -1,0 +1,52 @@
+[5.903s] Invoking command in '/home/f1tenth/lab_ws25/src/rrt': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data
+[6.586s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.586s]   warnings.warn(
+[6.855s] running egg_info
+[6.856s] creating ../../build/rrt/rrt.egg-info
+[6.893s] writing ../../build/rrt/rrt.egg-info/PKG-INFO
+[6.894s] writing dependency_links to ../../build/rrt/rrt.egg-info/dependency_links.txt
+[6.894s] writing entry points to ../../build/rrt/rrt.egg-info/entry_points.txt
+[6.895s] writing requirements to ../../build/rrt/rrt.egg-info/requires.txt
+[6.895s] writing top-level names to ../../build/rrt/rrt.egg-info/top_level.txt
+[6.897s] writing manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[7.011s] reading manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[7.011s] adding license file 'LICENSE'
+[7.012s] writing manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[7.013s] running build
+[7.013s] running build_py
+[7.013s] creating /home/f1tenth/lab_ws25/build/rrt/build
+[7.014s] creating /home/f1tenth/lab_ws25/build/rrt/build/lib
+[7.014s] creating /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt
+[7.015s] copying rrt/rrt.py -> /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt
+[7.016s] copying rrt/__init__.py -> /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt
+[7.018s] running install
+[7.030s] running install_lib
+[7.069s] creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[7.069s] copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/rrt.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[7.069s] copying /home/f1tenth/lab_ws25/build/rrt/build/lib/rrt/__init__.py -> /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt
+[7.070s] byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/rrt.py to rrt.cpython-38.pyc
+[7.078s] byte-compiling /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt/__init__.py to __init__.cpython-38.pyc
+[7.078s] running install_data
+[7.079s] creating /home/f1tenth/lab_ws25/install/rrt/share/ament_index
+[7.079s] creating /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index
+[7.080s] creating /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages
+[7.080s] copying resource/rrt -> /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages
+[7.080s] copying package.xml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt
+[7.080s] creating /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[7.081s] copying racelines/traj_race_cl_shortest_path_left.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[7.081s] copying racelines/traj_race_cl_shortest_path_right.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[7.081s] copying racelines/e7_floor5.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[7.081s] copying racelines/FTMHalle_clean.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+[7.082s] creating /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[7.082s] copying launch/rrt.rviz -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[7.083s] copying launch/sim_rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[7.083s] copying launch/rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+[7.083s] creating /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+[7.084s] copying config/config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+[7.084s] copying config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+[7.084s] running install_egg_info
+[7.128s] Copying ../../build/rrt/rrt.egg-info to /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt-0.0.0-py3.8.egg-info
+[7.129s] running install_scripts
+[7.275s] Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+[7.276s] writing list of installed files to '/home/f1tenth/lab_ws25/build/rrt/install.log'
+[7.413s] Invoked command in '/home/f1tenth/lab_ws25/src/rrt' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data

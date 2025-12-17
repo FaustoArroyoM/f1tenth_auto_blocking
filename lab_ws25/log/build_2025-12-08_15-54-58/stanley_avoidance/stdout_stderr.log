@@ -1,0 +1,36 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+writing stanley_avoidance.egg-info/PKG-INFO
+writing dependency_links to stanley_avoidance.egg-info/dependency_links.txt
+writing entry points to stanley_avoidance.egg-info/entry_points.txt
+writing requirements to stanley_avoidance.egg-info/requires.txt
+writing top-level names to stanley_avoidance.egg-info/top_level.txt
+reading manifest file 'stanley_avoidance.egg-info/SOURCES.txt'
+writing manifest file 'stanley_avoidance.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley-avoidance.egg-link (link to .)
+Installing stanley_avoidance script to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/stanley_avoidance
+
+Installed /home/f1tenth/lab_ws25/build/stanley_avoidance
+running symlink_data
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/resource/stanley_avoidance -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/package.xml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-13_mintime_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/shortest_path.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/e7_floor5.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-13_shortest_path_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-13_shortest_path_left.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-13_mincurv_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/FTMHalle_Mincurve.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-05_mincurv.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/FTMHalle_Mincurve_new.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/racelines/traj_race_cl-2023-12-13_mincurv_iqp_right.csv -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/launch/stanley_avoidance.rviz -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/launch/stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/launch/sim_stanley_avoidance_launch.py -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/launch
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/config/config.yaml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/config
+symbolically linking /home/f1tenth/lab_ws25/build/stanley_avoidance/config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/stanley_avoidance/share/stanley_avoidance/config

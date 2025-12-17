@@ -1,0 +1,23 @@
+[7.110s] Invoking command in '/home/f1tenth/lab_ws25/src/particle_filter': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/lab_ws25/build/particle_filter/build install --record /home/f1tenth/lab_ws25/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[7.929s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.930s]   warnings.warn(
+[8.258s] running egg_info
+[8.339s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[8.340s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[8.340s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[8.340s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[8.341s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[8.437s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.440s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.440s] running build
+[8.440s] running build_py
+[8.442s] running install
+[8.454s] running install_lib
+[8.500s] running install_data
+[8.503s] running install_egg_info
+[8.547s] removing '/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[8.548s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[8.551s] running install_scripts
+[8.722s] Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter
+[8.723s] writing list of installed files to '/home/f1tenth/lab_ws25/build/particle_filter/install.log'
+[8.929s] Invoked command in '/home/f1tenth/lab_ws25/src/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/lab_ws25/build/particle_filter/build install --record /home/f1tenth/lab_ws25/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

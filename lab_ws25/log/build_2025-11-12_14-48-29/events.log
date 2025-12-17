@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000652] (-) JobUnselected: {'identifier': 'follow_the_gap'}
+[0.000852] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.001240] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001550] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.001830] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[0.099478] (-) TimerEvent: {}
+[0.200248] (-) TimerEvent: {}
+[0.300900] (-) TimerEvent: {}
+[0.401576] (-) TimerEvent: {}
+[0.502108] (-) TimerEvent: {}
+[0.602665] (-) TimerEvent: {}
+[0.703246] (-) TimerEvent: {}
+[0.803823] (-) TimerEvent: {}
+[0.904459] (-) TimerEvent: {}
+[1.005200] (-) TimerEvent: {}
+[1.106058] (-) TimerEvent: {}
+[1.206701] (-) TimerEvent: {}
+[1.307288] (-) TimerEvent: {}
+[1.407796] (-) TimerEvent: {}
+[1.508469] (-) TimerEvent: {}
+[1.609155] (-) TimerEvent: {}
+[1.709762] (-) TimerEvent: {}
+[1.810239] (-) TimerEvent: {}
+[1.910787] (-) TimerEvent: {}
+[2.011364] (-) TimerEvent: {}
+[2.111922] (-) TimerEvent: {}
+[2.212459] (-) TimerEvent: {}
+[2.312999] (-) TimerEvent: {}
+[2.413490] (-) TimerEvent: {}
+[2.513945] (-) TimerEvent: {}
+[2.614543] (-) TimerEvent: {}
+[2.655104] (particle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/particle_filter', 'build', '--build-base', '/home/f1tenth/lab_ws25/build/particle_filter/build', 'install', '--record', '/home/f1tenth/lab_ws25/build/particle_filter/install.log', '--install-scripts', '$base/lib/particle_filter', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth/lab_ws25/src/particle_filter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2197', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib', 'HOME': '/home/f1tenth', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/f1tenth/lab_ws25/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1591', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3111', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/lab_ws25/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JOURNAL_STREAM': '8:53755', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2251,unix/ubuntu:/tmp/.ICE-unix/2251', 'INVOCATION_ID': 'f10974caf2ef47d78f484035cc901b28', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libGLdispatch.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/f1tenth/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e1a6e8e5-5d6c-4362-9566-c6156e7de03b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f1tenth/lab_ws25/build/particle_filter', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/f1tenth/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/lab_ws25/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/safety_node:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/follow_the_gap:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg:/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg:/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/f1tenth/lab_ws25/install/slam_toolbox'}, 'shell': False}
+[2.714745] (-) TimerEvent: {}
+[2.815417] (-) TimerEvent: {}
+[2.915962] (-) TimerEvent: {}
+[3.016499] (-) TimerEvent: {}
+[3.117033] (-) TimerEvent: {}
+[3.217565] (-) TimerEvent: {}
+[3.318111] (-) TimerEvent: {}
+[3.366339] (particle_filter) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.366966] (particle_filter) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.418246] (-) TimerEvent: {}
+[3.518793] (-) TimerEvent: {}
+[3.619363] (-) TimerEvent: {}
+[3.646342] (particle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[3.648713] (particle_filter) StdoutLine: {'line': b'creating ../../build/particle_filter/particle_filter.egg-info\n'}
+[3.688036] (particle_filter) StdoutLine: {'line': b'writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO\n'}
+[3.688599] (particle_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt\n'}
+[3.689074] (particle_filter) StdoutLine: {'line': b'writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt\n'}
+[3.689323] (particle_filter) StdoutLine: {'line': b'writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt\n'}
+[3.689579] (particle_filter) StdoutLine: {'line': b'writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt\n'}
+[3.694426] (particle_filter) StdoutLine: {'line': b"writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[3.719452] (-) TimerEvent: {}
+[3.800953] (particle_filter) StdoutLine: {'line': b"reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[3.802847] (particle_filter) StdoutLine: {'line': b"writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[3.803295] (particle_filter) StdoutLine: {'line': b'running build\n'}
+[3.803475] (particle_filter) StdoutLine: {'line': b'running build_py\n'}
+[3.803695] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/build/particle_filter/build\n'}
+[3.803880] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/build/particle_filter/build/lib\n'}
+[3.804054] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter\n'}
+[3.804219] (particle_filter) StdoutLine: {'line': b'copying particle_filter/utils.py -> /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter\n'}
+[3.804430] (particle_filter) StdoutLine: {'line': b'copying particle_filter/__init__.py -> /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter\n'}
+[3.804659] (particle_filter) StdoutLine: {'line': b'copying particle_filter/particle_filter.py -> /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter\n'}
+[3.805192] (particle_filter) StdoutLine: {'line': b'running install\n'}
+[3.816968] (particle_filter) StdoutLine: {'line': b'running install_lib\n'}
+[3.819515] (-) TimerEvent: {}
+[3.858227] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter\n'}
+[3.858617] (particle_filter) StdoutLine: {'line': b'copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/utils.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter\n'}
+[3.858821] (particle_filter) StdoutLine: {'line': b'copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/__init__.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter\n'}
+[3.859011] (particle_filter) StdoutLine: {'line': b'copying /home/f1tenth/lab_ws25/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter\n'}
+[3.860214] (particle_filter) StdoutLine: {'line': b'byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/utils.py to utils.cpython-38.pyc\n'}
+[3.862958] (particle_filter) StdoutLine: {'line': b'byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/__init__.py to __init__.cpython-38.pyc\n'}
+[3.863360] (particle_filter) StdoutLine: {'line': b'byte-compiling /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-38.pyc\n'}
+[3.870333] (particle_filter) StdoutLine: {'line': b'running install_data\n'}
+[3.870560] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index\n'}
+[3.870729] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index\n'}
+[3.870890] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index/packages\n'}
+[3.871068] (particle_filter) StdoutLine: {'line': b'copying resource/particle_filter -> /home/f1tenth/lab_ws25/install/particle_filter/share/ament_index/resource_index/packages\n'}
+[3.871288] (particle_filter) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter\n'}
+[3.871531] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.871689] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5_bigger.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.885761] (particle_filter) StdoutLine: {'line': b'copying maps/Hockenheim_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.886169] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5_biggest_RAW.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.890477] (particle_filter) StdoutLine: {'line': b'copying maps/map1_sync.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.890723] (particle_filter) StdoutLine: {'line': b'copying maps/cps_2023.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.891141] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5_biggest.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.895771] (particle_filter) StdoutLine: {'line': b'copying maps/cps_2023_old.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.895985] (particle_filter) StdoutLine: {'line': b'copying maps/map1_async.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.896373] (particle_filter) StdoutLine: {'line': b'copying maps/cps_2023_old.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.896754] (particle_filter) StdoutLine: {'line': b'copying maps/map1_async.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.896955] (particle_filter) StdoutLine: {'line': b'copying maps/Silverstone_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.897298] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5_biggest.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.897499] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.897702] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.899017] (particle_filter) StdoutLine: {'line': b'copying maps/cps_2023.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.899220] (particle_filter) StdoutLine: {'line': b'copying maps/map1_sync.pgm -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.899513] (particle_filter) StdoutLine: {'line': b'copying maps/Hockenheim_map.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.899845] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor3_merged.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.900040] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor5_bigger.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.900231] (particle_filter) StdoutLine: {'line': b'copying maps/e7_floor3_merged.png -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.901767] (particle_filter) StdoutLine: {'line': b'copying maps/Silverstone_map.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/maps\n'}
+[3.902016] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/launch\n'}
+[3.902180] (particle_filter) StdoutLine: {'line': b'copying launch/localize_launch.py -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/launch\n'}
+[3.902401] (particle_filter) StdoutLine: {'line': b'creating /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/config\n'}
+[3.902584] (particle_filter) StdoutLine: {'line': b'copying config/localize.yaml -> /home/f1tenth/lab_ws25/install/particle_filter/share/particle_filter/config\n'}
+[3.902765] (particle_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.919597] (-) TimerEvent: {}
+[3.944700] (particle_filter) StdoutLine: {'line': b'Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/lab_ws25/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info\n'}
+[3.946768] (particle_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[4.019712] (-) TimerEvent: {}
+[4.100811] (particle_filter) StdoutLine: {'line': b'Installing particle_filter script to /home/f1tenth/lab_ws25/install/particle_filter/lib/particle_filter\n'}
+[4.101641] (particle_filter) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth/lab_ws25/build/particle_filter/install.log'\n"}
+[4.119868] (-) TimerEvent: {}
+[4.218537] (particle_filter) CommandEnded: {'returncode': 0}
+[4.222770] (-) TimerEvent: {}
+[4.256753] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 0}
+[4.258897] (-) EventReactorShutdown: {}

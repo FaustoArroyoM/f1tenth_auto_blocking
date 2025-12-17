@@ -1,0 +1,41 @@
+[  1%] Built target slam_toolbox__cpp
+[ 10%] Built target slam_toolbox__rosidl_generator_c
+[ 12%] Built target kartoSlamToolbox
+[ 21%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 30%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 39%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 48%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target slam_toolbox__rosidl_typesupport_c
+[ 58%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so[0m
+[ 66%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 66%] Built target slam_toolbox
+[ 67%] Built target slam_toolbox__py
+[ 68%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[ 69%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[ 69%] [32m[1mLinking CXX shared library libSlamToolboxPlugin.so[0m
+[ 77%] Built target slam_toolbox__python
+[ 78%] [32m[1mLinking CXX shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 79%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[ 80%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[ 80%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[ 81%] Built target ceres_solver_plugin
+[ 85%] Built target toolbox_common
+[ 86%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[ 87%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[ 88%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[ 88%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[ 88%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[ 90%] Built target SlamToolboxPlugin
+[ 91%] Built target async_slam_toolbox
+[ 92%] Built target lifelong_slam_toolbox
+[ 93%] Built target sync_slam_toolbox
+[ 93%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[ 94%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[ 95%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[ 96%] Built target localization_slam_toolbox
+[ 97%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[ 98%] Built target merge_maps_kinematic
+[ 98%] Built target lifelong_slam_toolbox_node
+[ 99%] Built target async_slam_toolbox_node
+[ 99%] Built target sync_slam_toolbox_node
+[100%] Built target localization_slam_toolbox_node

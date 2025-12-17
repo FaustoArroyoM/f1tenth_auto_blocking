@@ -1,0 +1,24 @@
+[6.318s] Invoking command in '/home/f1tenth/lab_ws25/src/rrt': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data
+[7.087s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.087s]   warnings.warn(
+[7.388s] running egg_info
+[7.461s] writing ../../build/rrt/rrt.egg-info/PKG-INFO
+[7.461s] writing dependency_links to ../../build/rrt/rrt.egg-info/dependency_links.txt
+[7.462s] writing entry points to ../../build/rrt/rrt.egg-info/entry_points.txt
+[7.462s] writing requirements to ../../build/rrt/rrt.egg-info/requires.txt
+[7.462s] writing top-level names to ../../build/rrt/rrt.egg-info/top_level.txt
+[7.551s] reading manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[7.551s] adding license file 'LICENSE'
+[7.553s] writing manifest file '../../build/rrt/rrt.egg-info/SOURCES.txt'
+[7.553s] running build
+[7.553s] running build_py
+[7.554s] running install
+[7.567s] running install_lib
+[7.612s] running install_data
+[7.613s] running install_egg_info
+[7.657s] removing '/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt-0.0.0-py3.8.egg-info' (and everything under it)
+[7.658s] Copying ../../build/rrt/rrt.egg-info to /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt-0.0.0-py3.8.egg-info
+[7.661s] running install_scripts
+[7.830s] Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+[7.831s] writing list of installed files to '/home/f1tenth/lab_ws25/build/rrt/install.log'
+[8.008s] Invoked command in '/home/f1tenth/lab_ws25/src/rrt' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/rrt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt build --build-base /home/f1tenth/lab_ws25/build/rrt/build install --record /home/f1tenth/lab_ws25/build/rrt/install.log --install-scripts $base/lib/rrt --single-version-externally-managed install_data

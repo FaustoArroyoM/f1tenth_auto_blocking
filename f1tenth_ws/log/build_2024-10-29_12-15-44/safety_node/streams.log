@@ -1,0 +1,28 @@
+[10.380s] Invoking command in '/home/f1tenth/f1tenth_ws/src/safety_node': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/safety_node/prefix_override:/home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/safety_node build --build-base /home/f1tenth/f1tenth_ws/build/safety_node/build install --record /home/f1tenth/f1tenth_ws/build/safety_node/install.log --install-scripts $base/lib/safety_node --single-version-externally-managed
+[11.010s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.010s]   warnings.warn(
+[11.205s] running egg_info
+[11.234s] writing ../../build/safety_node/safety_node.egg-info/PKG-INFO
+[11.238s] writing dependency_links to ../../build/safety_node/safety_node.egg-info/dependency_links.txt
+[11.241s] writing entry points to ../../build/safety_node/safety_node.egg-info/entry_points.txt
+[11.242s] writing requirements to ../../build/safety_node/safety_node.egg-info/requires.txt
+[11.242s] writing top-level names to ../../build/safety_node/safety_node.egg-info/top_level.txt
+[11.301s] reading manifest file '../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[11.302s] writing manifest file '../../build/safety_node/safety_node.egg-info/SOURCES.txt'
+[11.303s] running build
+[11.303s] running build_py
+[11.303s] copying safety_node/safety_node.py -> /home/f1tenth/f1tenth_ws/build/safety_node/build/lib/safety_node
+[11.305s] running install
+[11.309s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.312s]   warnings.warn(
+[11.315s] running install_lib
+[11.344s] copying /home/f1tenth/f1tenth_ws/build/safety_node/build/lib/safety_node/safety_node.py -> /home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[11.346s] byte-compiling /home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node/safety_node.py to safety_node.cpython-38.pyc
+[11.347s] running install_data
+[11.377s] running install_egg_info
+[11.442s] removing '/home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node-0.0.0-py3.8.egg-info' (and everything under it)
+[11.444s] Copying ../../build/safety_node/safety_node.egg-info to /home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node-0.0.0-py3.8.egg-info
+[11.446s] running install_scripts
+[11.569s] Installing safety_node script to /home/f1tenth/f1tenth_ws/install/safety_node/lib/safety_node
+[11.570s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/safety_node/install.log'
+[17.317s] Invoked command in '/home/f1tenth/f1tenth_ws/src/safety_node' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/safety_node/prefix_override:/home/f1tenth/f1tenth_ws/install/safety_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/safety_node build --build-base /home/f1tenth/f1tenth_ws/build/safety_node/build install --record /home/f1tenth/f1tenth_ws/build/safety_node/install.log --install-scripts $base/lib/safety_node --single-version-externally-managed

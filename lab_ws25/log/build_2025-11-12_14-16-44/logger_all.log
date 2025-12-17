@@ -1,0 +1,375 @@
+[0.627s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'slam_toolbox']
+[0.628s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7f8a9be0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['slam_toolbox'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7f8a9be0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7f833280>)
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.256s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/f1tenth/lab_ws25'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'ignore'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'ignore_ament_install'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['colcon_pkg']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'colcon_pkg'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['colcon_meta']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'colcon_meta'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['ros']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'ros'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['cmake', 'python']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'cmake'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'python'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extensions ['python_setup_py']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper) by extension 'python_setup_py'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['ignore', 'ignore_ament_install']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'ignore'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'ignore_ament_install'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['ros']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'ros'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['cmake', 'python']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'cmake'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'python'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extensions ['python_setup_py']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap) by extension 'python_setup_py'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'ignore'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'ignore_ament_install'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['colcon_pkg']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'colcon_pkg'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['colcon_meta']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'colcon_meta'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['ros']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'ros'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['cmake', 'python']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'cmake'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'python'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extensions ['python_setup_py']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX) by extension 'python_setup_py'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'ignore_ament_install'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['colcon_pkg']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'colcon_pkg'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['colcon_meta']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'colcon_meta'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['ros']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'ros'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['cmake', 'python']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'cmake'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'python'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extensions ['python_setup_py']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap) by extension 'python_setup_py'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'ros'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['cmake', 'python']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'cmake'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'python'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extensions ['python_setup_py']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap) by extension 'python_setup_py'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'ignore'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'ignore_ament_install'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['colcon_pkg']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'colcon_pkg'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['colcon_meta']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'colcon_meta'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['ros']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'ros'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['cmake', 'python']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'cmake'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'python'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extensions ['python_setup_py']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/follow_the_gap/__pycache__) by extension 'python_setup_py'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['colcon_pkg']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'ros'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['cmake', 'python']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'cmake'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'python'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extensions ['python_setup_py']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/resource) by extension 'python_setup_py'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['ignore', 'ignore_ament_install']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'ignore'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'ignore_ament_install'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['colcon_pkg']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'colcon_pkg'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['colcon_meta']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'colcon_meta'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['ros']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'ros'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['cmake', 'python']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'cmake'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'python'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extensions ['python_setup_py']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/__MACOSX/follow_the_gap/test) by extension 'python_setup_py'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extensions ['ignore', 'ignore_ament_install']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extension 'ignore'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extension 'ignore_ament_install'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extensions ['colcon_pkg']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extension 'colcon_pkg'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extensions ['colcon_meta']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extension 'colcon_meta'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extensions ['ros']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap) by extension 'ros'
+[1.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap' with type 'ros.ament_python' and name 'follow_the_gap'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'ignore'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'ignore_ament_install'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['colcon_pkg']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'colcon_pkg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['colcon_meta']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'colcon_meta'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'ros'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['cmake', 'python']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'cmake'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'python'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extensions ['python_setup_py']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper) by extension 'python_setup_py'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'ignore'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'ignore_ament_install'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['colcon_pkg']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'colcon_pkg'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['colcon_meta']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'colcon_meta'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['ros']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'ros'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['cmake', 'python']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'cmake'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'python'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extensions ['python_setup_py']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX) by extension 'python_setup_py'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['ignore', 'ignore_ament_install']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'ignore'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'ignore_ament_install'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['colcon_pkg']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'colcon_pkg'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['colcon_meta']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'colcon_meta'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['ros']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'ros'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['cmake', 'python']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'cmake'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'python'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extensions ['python_setup_py']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node) by extension 'python_setup_py'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['ignore', 'ignore_ament_install']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'ignore'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'ignore_ament_install'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['colcon_pkg']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'colcon_pkg'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['colcon_meta']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'colcon_meta'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['ros']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'ros'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['cmake', 'python']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'cmake'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'python'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extensions ['python_setup_py']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/resource) by extension 'python_setup_py'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'ignore_ament_install'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['colcon_pkg']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'colcon_pkg'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['colcon_meta']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'colcon_meta'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['ros']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'ros'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['cmake', 'python']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'cmake'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'python'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extensions ['python_setup_py']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/safety_node) by extension 'python_setup_py'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['ignore', 'ignore_ament_install']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'ignore'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'ignore_ament_install'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['colcon_pkg']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'colcon_pkg'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['colcon_meta']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'colcon_meta'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['ros']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'ros'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['cmake', 'python']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'cmake'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'python'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extensions ['python_setup_py']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/__MACOSX/safety_node/test) by extension 'python_setup_py'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extensions ['ignore', 'ignore_ament_install']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extension 'ignore'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extension 'ignore_ament_install'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extensions ['colcon_pkg']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extension 'colcon_pkg'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extensions ['colcon_meta']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extension 'colcon_meta'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extensions ['ros']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node_car_wrapper/safety_node) by extension 'ros'
+[1.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/safety_node_car_wrapper/safety_node' with type 'ros.ament_python' and name 'safety_node'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[1.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[1.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.380s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'follow_the_gap' in 'src/follow_the_gap_wrapper/follow_the_gap/follow_the_gap'
+[1.380s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'safety_node' in 'src/safety_node_car_wrapper/safety_node'
+[1.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/f1tenth/lab_ws25/install
+[1.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/foxy
+[1.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.521s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/f1tenth/lab_ws25/install/slam_toolbox', 'merge_install': False, 'path': '/home/f1tenth/lab_ws25/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[1.521s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/f1tenth/lab_ws25/src/slam_toolbox' with build type 'ament_cmake'
+[1.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/f1tenth/lab_ws25/src/slam_toolbox'
+[1.532s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/f1tenth/lab_ws25/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/slam_toolbox -- -j6 -l6
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/f1tenth/lab_ws25/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/slam_toolbox -- -j6 -l6
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/f1tenth/lab_ws25/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/slam_toolbox
+[2.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[2.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/f1tenth/lab_ws25/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/slam_toolbox
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox' for CMake module files
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox' for CMake config files
+[2.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[2.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib'
+[2.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/bin'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages'
+[2.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[2.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/bin'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[2.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.sh'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.bash'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[2.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/f1tenth/lab_ws25/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[2.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox' for CMake module files
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox' for CMake config files
+[2.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[2.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib'
+[2.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/bin'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages'
+[2.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/f1tenth/lab_ws25/install/slam_toolbox/bin'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.sh'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.bash'
+[2.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[2.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/f1tenth/lab_ws25/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[2.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.589s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.605s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.644s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f1tenth/lab_ws25/install/local_setup.ps1'
+[2.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/f1tenth/lab_ws25/install/_local_setup_util_ps1.py'
+[2.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f1tenth/lab_ws25/install/setup.ps1'
+[2.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f1tenth/lab_ws25/install/local_setup.sh'
+[2.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/f1tenth/lab_ws25/install/_local_setup_util_sh.py'
+[2.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f1tenth/lab_ws25/install/setup.sh'
+[2.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f1tenth/lab_ws25/install/local_setup.bash'
+[2.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f1tenth/lab_ws25/install/setup.bash'
+[2.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f1tenth/lab_ws25/install/local_setup.zsh'
+[2.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f1tenth/lab_ws25/install/setup.zsh'

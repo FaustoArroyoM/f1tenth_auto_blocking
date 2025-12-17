@@ -1,0 +1,53 @@
+[1.993s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/pure_pursuit
+[4.131s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.132s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.133s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.133s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.133s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.134s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[4.134s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.134s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.134s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.134s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.134s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.134s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.134s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[5.304s] -- Configuring done
+[5.429s] -- Generating done
+[5.502s] -- Build files have been written to: /home/f1tenth/lab_ws25/build/pure_pursuit
+[5.556s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/pure_pursuit
+[5.557s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[5.850s] [ 50%] Built target waypoint_visualiser_node
+[5.891s] [100%] Built target pure_pursuit_node
+[5.920s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[5.926s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit
+[5.949s] -- Install configuration: ""
+[5.952s] -- Execute custom install script
+[5.954s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[5.954s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/waypoint_visualiser_node
+[5.958s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[5.958s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[5.959s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[5.960s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[5.963s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[5.964s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[5.965s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[5.966s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[5.967s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[5.968s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[5.968s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[5.969s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[5.970s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[5.971s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[5.972s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[5.973s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[5.974s] -- Symlinking: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.dsv
+[6.028s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[6.031s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[6.035s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[6.036s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.xml
+[6.041s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit

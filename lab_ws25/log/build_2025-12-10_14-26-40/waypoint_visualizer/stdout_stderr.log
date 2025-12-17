@@ -1,0 +1,20 @@
+[ 50%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[100%] Built target waypoint_visualizer
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/lib/waypoint_visualizer/waypoint_visualizer
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/package_run_dependencies/waypoint_visualizer
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/parent_prefix_path/waypoint_visualizer
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/ament_prefix_path.sh
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/ament_prefix_path.dsv
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/path.sh
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/path.dsv
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.bash
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.sh
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.zsh
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.dsv
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/package.dsv
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/packages/waypoint_visualizer
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/cmake/waypoint_visualizerConfig.cmake
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/cmake/waypoint_visualizerConfig-version.cmake
+-- Symlinking: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/package.xml

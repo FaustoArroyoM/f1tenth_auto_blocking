@@ -1,0 +1,24 @@
+[3.982s] Invoking command in '/home/f1tenth/lab_ws25/src/stanley_avoidance': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/f1tenth/lab_ws25/build/stanley_avoidance/build install --record /home/f1tenth/lab_ws25/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data
+[4.645s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.645s]   warnings.warn(
+[4.912s] running egg_info
+[4.976s] writing ../../build/stanley_avoidance/stanley_avoidance.egg-info/PKG-INFO
+[4.977s] writing dependency_links to ../../build/stanley_avoidance/stanley_avoidance.egg-info/dependency_links.txt
+[4.977s] writing entry points to ../../build/stanley_avoidance/stanley_avoidance.egg-info/entry_points.txt
+[4.977s] writing requirements to ../../build/stanley_avoidance/stanley_avoidance.egg-info/requires.txt
+[4.978s] writing top-level names to ../../build/stanley_avoidance/stanley_avoidance.egg-info/top_level.txt
+[5.057s] reading manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[5.057s] adding license file 'LICENSE'
+[5.059s] writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[5.059s] running build
+[5.060s] running build_py
+[5.060s] running install
+[5.071s] running install_lib
+[5.110s] running install_data
+[5.111s] running install_egg_info
+[5.151s] removing '/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[5.151s] Copying ../../build/stanley_avoidance/stanley_avoidance.egg-info to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info
+[5.153s] running install_scripts
+[5.297s] Installing stanley_avoidance script to /home/f1tenth/lab_ws25/install/stanley_avoidance/lib/stanley_avoidance
+[5.298s] writing list of installed files to '/home/f1tenth/lab_ws25/build/stanley_avoidance/install.log'
+[5.412s] Invoked command in '/home/f1tenth/lab_ws25/src/stanley_avoidance' returned '0': PYTHONPATH=/home/f1tenth/lab_ws25/build/stanley_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/lab_ws25/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/f1tenth/lab_ws25/build/stanley_avoidance/build install --record /home/f1tenth/lab_ws25/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data

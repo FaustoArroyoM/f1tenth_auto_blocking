@@ -1,0 +1,45 @@
+[0.045s] Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake /home/f1tenth/lab_ws25/src/waypoint_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/waypoint_visualizer
+[0.082s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.730s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.184s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.188s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.456s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.456s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.516s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.644s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.704s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.831s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.959s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.962s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.718s] -- Configuring done
+[2.737s] -- Generating done
+[2.746s] -- Build files have been written to: /home/f1tenth/lab_ws25/build/waypoint_visualizer
+[2.770s] Invoked command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake /home/f1tenth/lab_ws25/src/waypoint_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/waypoint_visualizer
+[2.780s] Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/waypoint_visualizer -- -j6 -l6
+[2.917s] [100%] Built target waypoint_visualizer
+[2.943s] Invoked command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/waypoint_visualizer -- -j6 -l6
+[2.952s] Invoking command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/waypoint_visualizer
+[2.971s] -- Install configuration: ""
+[2.972s] -- Execute custom install script
+[2.973s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/lib/waypoint_visualizer/waypoint_visualizer
+[2.973s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/package_run_dependencies/waypoint_visualizer
+[2.974s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/parent_prefix_path/waypoint_visualizer
+[2.974s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/ament_prefix_path.sh
+[2.975s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/ament_prefix_path.dsv
+[2.975s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/path.sh
+[2.976s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/environment/path.dsv
+[2.976s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.bash
+[2.977s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.sh
+[2.977s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.zsh
+[2.978s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/local_setup.dsv
+[2.978s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/package.dsv
+[2.979s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/ament_index/resource_index/packages/waypoint_visualizer
+[2.979s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/cmake/waypoint_visualizerConfig.cmake
+[2.979s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/cmake/waypoint_visualizerConfig-version.cmake
+[2.980s] -- Up-to-date symlink: /home/f1tenth/lab_ws25/install/waypoint_visualizer/share/waypoint_visualizer/package.xml
+[2.986s] Invoked command in '/home/f1tenth/lab_ws25/build/waypoint_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/lab_ws25/install/waypoint_visualizer:/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/stanley_avoidance:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/rrt:/home/f1tenth/lab_ws25/install/particle_filter:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy:/home/f1tenth/lab_ws25/install/ros_deep_learning:/home/f1tenth/lab_ws25/install/pure_pursuit /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/waypoint_visualizer

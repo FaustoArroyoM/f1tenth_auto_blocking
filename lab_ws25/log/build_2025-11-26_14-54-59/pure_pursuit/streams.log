@@ -1,0 +1,88 @@
+[1.870s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/pure_pursuit
+[2.819s] -- The C compiler identification is GNU 9.4.0
+[2.820s] -- The CXX compiler identification is GNU 9.4.0
+[2.821s] -- Check for working C compiler: /usr/bin/cc
+[2.822s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.822s] -- Detecting C compiler ABI info
+[2.826s] -- Detecting C compiler ABI info - done
+[2.826s] -- Detecting C compile features
+[2.826s] -- Detecting C compile features - done
+[2.826s] -- Check for working CXX compiler: /usr/bin/c++
+[2.827s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.827s] -- Detecting CXX compiler ABI info
+[2.932s] -- Detecting CXX compiler ABI info - done
+[2.952s] -- Detecting CXX compile features
+[2.952s] -- Detecting CXX compile features - done
+[2.957s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.011s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.012s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.588s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.701s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.932s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.012s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.466s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.476s] -- Looking for pthread.h
+[4.651s] -- Looking for pthread.h - found
+[4.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.957s] -- Looking for pthread_create in pthreads
+[5.231s] -- Looking for pthread_create in pthreads - not found
+[5.233s] -- Looking for pthread_create in pthread
+[5.503s] -- Looking for pthread_create in pthread - found
+[5.505s] -- Found Threads: TRUE  
+[5.835s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.837s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.907s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.044s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[6.113s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.253s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[6.392s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[6.400s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.403s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.241s] -- Configuring done
+[7.285s] -- Generating done
+[7.304s] -- Build files have been written to: /home/f1tenth/lab_ws25/build/pure_pursuit
+[7.341s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/lab_ws25/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/f1tenth/lab_ws25/install/pure_pursuit
+[7.348s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[7.457s] [35m[1mScanning dependencies of target waypoint_visualiser_node[0m
+[7.469s] [35m[1mScanning dependencies of target pure_pursuit_node[0m
+[7.594s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_visualiser_node.dir/src/waypoint_visualiser_node.cpp.o[0m
+[7.669s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[15.085s] [ 75%] [32m[1mLinking CXX executable waypoint_visualiser_node[0m
+[15.445s] [ 75%] Built target waypoint_visualiser_node
+[23.917s] [100%] [32m[1mLinking CXX executable pure_pursuit_node[0m
+[24.585s] [100%] Built target pure_pursuit_node
+[24.611s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/lab_ws25/build/pure_pursuit -- -j6 -l6
+[24.618s] Invoking command in '/home/f1tenth/lab_ws25/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit
+[24.637s] -- Install configuration: ""
+[24.637s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[24.642s] -- Set runtime path of "/home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""
+[24.642s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/waypoint_visualiser_node
+[24.644s] -- Set runtime path of "/home/f1tenth/lab_ws25/install/pure_pursuit/lib/pure_pursuit/waypoint_visualiser_node" to ""
+[24.645s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch
+[24.645s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[24.645s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[24.646s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[24.646s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[24.646s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config
+[24.647s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[24.647s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[24.648s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[24.648s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[24.649s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[24.649s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[24.649s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[24.649s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[24.650s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[24.650s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[24.650s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[24.651s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[24.651s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.dsv
+[24.651s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[24.652s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[24.652s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[24.653s] -- Installing: /home/f1tenth/lab_ws25/install/pure_pursuit/share/pure_pursuit/package.xml
+[24.660s] Invoked command in '/home/f1tenth/lab_ws25/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/lab_ws25/build/pure_pursuit

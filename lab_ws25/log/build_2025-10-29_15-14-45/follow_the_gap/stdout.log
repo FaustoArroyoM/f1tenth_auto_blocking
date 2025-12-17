@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing follow_the_gap.egg-info/PKG-INFO
+writing dependency_links to follow_the_gap.egg-info/dependency_links.txt
+writing entry points to follow_the_gap.egg-info/entry_points.txt
+writing requirements to follow_the_gap.egg-info/requires.txt
+writing top-level names to follow_the_gap.egg-info/top_level.txt
+reading manifest file 'follow_the_gap.egg-info/SOURCES.txt'
+writing manifest file 'follow_the_gap.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages/follow-the-gap.egg-link (link to .)
+Installing follow_the_gap script to /home/f1tenth/lab_ws25/install/follow_the_gap/lib/follow_the_gap
+
+Installed /home/f1tenth/lab_ws25/build/follow_the_gap
+running symlink_data

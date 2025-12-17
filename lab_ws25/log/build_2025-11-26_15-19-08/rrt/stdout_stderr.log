@@ -1,0 +1,28 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+writing rrt.egg-info/PKG-INFO
+writing dependency_links to rrt.egg-info/dependency_links.txt
+writing entry points to rrt.egg-info/entry_points.txt
+writing requirements to rrt.egg-info/requires.txt
+writing top-level names to rrt.egg-info/top_level.txt
+reading manifest file 'rrt.egg-info/SOURCES.txt'
+writing manifest file 'rrt.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/lab_ws25/install/rrt/lib/python3.8/site-packages/rrt.egg-link (link to .)
+Installing rrt script to /home/f1tenth/lab_ws25/install/rrt/lib/rrt
+
+Installed /home/f1tenth/lab_ws25/build/rrt
+running symlink_data
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/resource/rrt -> /home/f1tenth/lab_ws25/install/rrt/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/package.xml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/traj_race_cl_shortest_path_left.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/traj_race_cl_shortest_path_right.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/e7_floor5.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/racelines/FTMHalle_clean.csv -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/racelines
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/rrt.rviz -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/sim_rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/launch/rrt_launch.py -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/launch
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/config/config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config
+symbolically linking /home/f1tenth/lab_ws25/build/rrt/config/sim_config.yaml -> /home/f1tenth/lab_ws25/install/rrt/share/rrt/config

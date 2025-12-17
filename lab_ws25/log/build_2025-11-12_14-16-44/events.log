@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'follow_the_gap'}
+[0.000738] (-) JobUnselected: {'identifier': 'safety_node'}
+[0.000804] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000920] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.026762] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.029440] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.031086] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/lab_ws25/build/slam_toolbox', '--', '-j6', '-l6'], 'cwd': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2197'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth/lab_ws25/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3111'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:53755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2251,unix/ubuntu:/tmp/.ICE-unix/2251'), ('INVOCATION_ID', 'f10974caf2ef47d78f484035cc901b28'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8d49d48-e60a-4951-a090-184ea705a45c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/slam_toolbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/safety_node:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/follow_the_gap:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy')]), 'shell': False}
+[0.097210] (-) TimerEvent: {}
+[0.197982] (-) TimerEvent: {}
+[0.216703] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target slam_toolbox__cpp\n'}
+[0.232349] (slam_toolbox) StdoutLine: {'line': b'[ 10%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.235682] (slam_toolbox) StdoutLine: {'line': b'[ 12%] Built target kartoSlamToolbox\n'}
+[0.278873] (slam_toolbox) StdoutLine: {'line': b'[ 21%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.285200] (slam_toolbox) StdoutLine: {'line': b'[ 30%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.295766] (slam_toolbox) StdoutLine: {'line': b'[ 39%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.298085] (-) TimerEvent: {}
+[0.302074] (slam_toolbox) StdoutLine: {'line': b'[ 48%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[0.303741] (slam_toolbox) StdoutLine: {'line': b'[ 57%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.373607] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.398281] (-) TimerEvent: {}
+[0.423496] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target slam_toolbox\n'}
+[0.480688] (slam_toolbox) StdoutLine: {'line': b'[ 67%] Built target slam_toolbox__py\n'}
+[0.498476] (-) TimerEvent: {}
+[0.508557] (slam_toolbox) StdoutLine: {'line': b'[ 69%] Built target ceres_solver_plugin\n'}
+[0.539531] (slam_toolbox) StdoutLine: {'line': b'[ 71%] Built target SlamToolboxPlugin\n'}
+[0.545868] (slam_toolbox) StdoutLine: {'line': b'[ 76%] Built target toolbox_common\n'}
+[0.554669] (slam_toolbox) StdoutLine: {'line': b'[ 84%] Built target slam_toolbox__python\n'}
+[0.598680] (-) TimerEvent: {}
+[0.639054] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target merge_maps_kinematic\n'}
+[0.639803] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target lifelong_slam_toolbox\n'}
+[0.646400] (slam_toolbox) StdoutLine: {'line': b'[ 88%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.659332] (slam_toolbox) StdoutLine: {'line': b'[ 90%] Built target localization_slam_toolbox\n'}
+[0.659928] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target async_slam_toolbox\n'}
+[0.672721] (slam_toolbox) StdoutLine: {'line': b'[ 93%] Built target sync_slam_toolbox\n'}
+[0.698881] (-) TimerEvent: {}
+[0.703930] (slam_toolbox) StdoutLine: {'line': b'[ 94%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[0.721006] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[0.749260] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target lifelong_slam_toolbox_node\n'}
+[0.766543] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target async_slam_toolbox_node\n'}
+[0.767182] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target localization_slam_toolbox_node\n'}
+[0.775834] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target sync_slam_toolbox_node\n'}
+[0.799146] (-) TimerEvent: {}
+[0.805071] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.808219] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[0.838783] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/lab_ws25/build/slam_toolbox'], 'cwd': '/home/f1tenth/lab_ws25/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2197'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib:/usr/local/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/f1tenth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/f1tenth/lab_ws25/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3111'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/lab_ws25/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JOURNAL_STREAM', '8:53755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/f1tenth/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2251,unix/ubuntu:/tmp/.ICE-unix/2251'), ('INVOCATION_ID', 'f10974caf2ef47d78f484035cc901b28'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/lib/aarch64-linux-gnu/libGLdispatch.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/f1tenth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8d49d48-e60a-4951-a090-184ea705a45c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/f1tenth/lab_ws25/build/slam_toolbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/f1tenth/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/safety_node:/home/f1tenth/lab_ws25/install/safety_node/lib/python3.8/site-packages:/home/f1tenth/lab_ws25/build/follow_the_gap:/home/f1tenth/lab_ws25/install/follow_the_gap/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/usr/lib/python3.8/site-packages/range_libc-0.1-py3.8-linux-aarch64.egg'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/lab_ws25/install/slam_toolbox:/home/f1tenth/lab_ws25/install/safety_node:/home/f1tenth/lab_ws25/install/follow_the_gap:/opt/ros/foxy')]), 'shell': False}
+[0.864878] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.865447] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[0.866069] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.866483] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[0.866998] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.867622] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.867936] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h\n'}
+[0.868127] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.h\n'}
+[0.868337] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h\n'}
+[0.868502] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h\n'}
+[0.868763] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.h\n'}
+[0.869053] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h\n'}
+[0.869346] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.869505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[0.869657] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[0.869860] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h\n'}
+[0.870031] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[0.870261] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[0.870557] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[0.870858] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[0.871774] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[0.872141] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[0.872515] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h\n'}
+[0.873391] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[0.873585] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[0.873755] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[0.873972] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[0.874178] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.c\n'}
+[0.874434] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[0.874671] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h\n'}
+[0.875019] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.c\n'}
+[0.875360] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.c\n'}
+[0.875702] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.c\n'}
+[0.876034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[0.876345] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[0.876663] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[0.876879] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.c\n'}
+[0.877330] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[0.877743] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.c\n'}
+[0.877953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[0.878135] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[0.878341] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h\n'}
+[0.878501] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[0.878655] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.c\n'}
+[0.878806] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.c\n'}
+[0.879011] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[0.879147] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.c\n'}
+[0.879315] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[0.879486] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[0.879666] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[0.879802] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c\n'}
+[0.879931] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[0.880059] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[0.880186] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.h\n'}
+[0.880312] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h\n'}
+[0.880439] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[0.880565] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[0.880691] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[0.880817] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[0.880942] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[0.881067] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.881193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[0.881318] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.881474] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.881603] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.881745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[0.881872] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882004] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882139] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882272] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882404] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882538] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882678] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882811] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.882963] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883100] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[0.883231] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.883362] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[0.883490] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.883619] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.883750] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.883881] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884024] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884166] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884308] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884588] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884727] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.884882] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.885024] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.885164] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/dds_fastrtps\n'}
+[0.885304] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.885442] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.885580] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.885718] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[0.885856] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.886021] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.886162] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.886276] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c\n'}
+[0.886390] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.c\n'}
+[0.886503] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.c\n'}
+[0.886617] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.886730] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.c\n'}
+[0.886842] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c\n'}
+[0.886993] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[0.887113] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.c\n'}
+[0.887228] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.c\n'}
+[0.887343] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.c\n'}
+[0.887455] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[0.887570] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[0.887682] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[0.887810] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.c\n'}
+[0.887942] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.888062] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.c\n'}
+[0.888177] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[0.888311] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[0.888444] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[0.888577] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.888709] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[0.888840] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[0.888971] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.889102] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg\n'}
+[0.889232] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.889363] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.889494] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp\n'}
+[0.889624] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.889754] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp\n'}
+[0.889886] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[0.890017] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[0.890148] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[0.890304] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp\n'}
+[0.890437] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[0.890569] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[0.890704] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[0.890842] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.hpp\n'}
+[0.891043] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[0.891193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.hpp\n'}
+[0.891335] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[0.891476] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[0.891616] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[0.891754] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.hpp\n'}
+[0.891893] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[0.892030] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[0.892165] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[0.892301] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[0.892452] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[0.892595] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[0.892733] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[0.892865] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[0.892997] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp\n'}
+[0.893129] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[0.893261] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[0.893392] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[0.893521] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.hpp\n'}
+[0.893652] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[0.893783] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[0.893912] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.hpp\n'}
+[0.894042] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[0.894172] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[0.894318] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[0.894450] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[0.894579] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.hpp\n'}
+[0.894708] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[0.894837] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[0.895003] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.hpp\n'}
+[0.895158] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[0.895287] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp\n'}
+[0.895412] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[0.895535] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[0.895658] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[0.895781] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp\n'}
+[0.895905] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp\n'}
+[0.896028] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp\n'}
+[0.896153] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp\n'}
+[0.896277] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp\n'}
+[0.896400] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.896523] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv\n'}
+[0.896646] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail\n'}
+[0.896769] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896907] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897035] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.cpp\n'}
+[0.897161] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897287] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897412] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.cpp\n'}
+[0.897548] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897674] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.cpp\n'}
+[0.897797] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.cpp\n'}
+[0.897921] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.898045] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp\n'}
+[0.898170] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp\n'}
+[0.898294] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.cpp\n'}
+[0.898418] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.898542] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.cpp\n'}
+[0.898664] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp\n'}
+[0.898787] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.898954] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.899086] (-) TimerEvent: {}
+[0.899387] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.899540] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.cpp\n'}
+[0.899669] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[0.899816] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[0.899936] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[0.900054] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[0.900171] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py\n'}
+[0.953326] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv\n'}
+[0.954237] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map.py\n'}
+[0.954555] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[0.954872] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[0.955203] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[0.955411] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[0.955619] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[0.955805] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear.py\n'}
+[0.955985] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[0.956234] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap.py\n'}
+[0.956419] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[0.956597] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause.py\n'}
+[0.956773] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[0.956947] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[0.957119] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[0.957354] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_s.c\n'}
+[0.957538] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/__init__.py\n'}
+[0.957716] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[0.957904] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[0.958192] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[0.958403] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause_s.c\n'}
+[0.958760] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[0.959396] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.959872] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.960042] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.960223] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libslam_toolbox__python.so\n'}
+[0.960579] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[0.960816] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[0.961033] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[0.961232] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[0.961434] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[0.961613] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[0.961967] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[0.962650] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[0.963196] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[0.963515] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[0.963800] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[0.964022] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[0.964295] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[0.964551] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[0.964808] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[0.965014] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[0.965211] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[0.965448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[0.965654] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[0.965846] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[0.966077] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[0.966278] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[0.966467] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[0.966696] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[0.966917] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[0.967130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[0.967320] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[0.967727] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[0.967915] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[0.968335] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[0.968541] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[0.968810] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[0.968992] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[0.969235] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[0.969417] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[0.969592] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[0.970135] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[0.970474] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[0.970758] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[0.971133] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[0.971372] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml\n'}
+[0.971953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml\n'}
+[0.972297] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[0.973043] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[0.973397] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[0.973702] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node\n'}
+[0.973980] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[0.974241] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[0.974548] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.974864] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[0.975153] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[0.975335] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[0.975550] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[0.975750] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[0.975960] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.976163] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include\n'}
+[0.976371] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox\n'}
+[0.976539] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[0.976742] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[0.976938] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[0.977095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[0.977345] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[0.977505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[0.977718] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[0.977890] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[0.978104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[0.978319] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[0.978512] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[0.978711] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[0.978866] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[0.979137] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[0.979383] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/experimental\n'}
+[0.979620] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[0.979834] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[0.980080] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch\n'}
+[0.980335] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[0.980505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[0.980669] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[0.980865] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[0.981242] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[0.981424] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py\n'}
+[0.981614] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config\n'}
+[0.981777] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[0.981932] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[0.982156] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[0.982348] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[0.982546] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[0.982788] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/solver_plugins.xml\n'}
+[0.983035] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[0.983275] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[0.983506] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[0.983734] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[0.983937] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[0.984152] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[0.984412] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[0.984602] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[0.984751] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[0.984895] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[0.985039] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[0.985180] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[0.985320] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[0.985460] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[0.985601] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[0.985740] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[0.985879] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[0.986018] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.986159] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.986276] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[0.986389] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[0.986503] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[0.986615] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.986727] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.986840] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[0.986986] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.987111] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[0.987228] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[0.987342] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[0.987455] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.987569] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.987694] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.987839] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.987958] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.988194] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.989164] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[0.989587] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[0.991084] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[0.992428] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include/\n'}
+[0.993007] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk\n'}
+[0.993444] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[0.993827] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[0.994117] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[0.994594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[0.995616] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[0.996311] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[0.996724] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[0.997132] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[0.997586] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.sh\n'}
+[0.997976] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv\n'}
+[0.998446] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk\n'}
+[0.998847] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk\n'}
+[0.999097] (-) TimerEvent: {}
+[0.999387] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh\n'}
+[0.999784] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv\n'}
+[1.000103] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.sh\n'}
+[1.000365] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/environment/path.dsv\n'}
+[1.000741] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.bash\n'}
+[1.001313] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.sh\n'}
+[1.001562] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.zsh\n'}
+[1.001906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/local_setup.dsv\n'}
+[1.002376] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.dsv\n'}
+[1.002694] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk\n'}
+[1.003246] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.003520] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.003830] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.004087] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake\n'}
+[1.004366] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake\n'}
+[1.004599] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/lab_ws25/install/slam_toolbox/share/karto_sdk/package.xml\n'}
+[1.004912] (slam_toolbox) CommandEnded: {'returncode': 0}
+[1.062283] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[1.064429] (-) EventReactorShutdown: {}
