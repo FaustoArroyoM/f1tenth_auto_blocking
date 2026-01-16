@@ -25,7 +25,9 @@ This script has to be executed to generate an optimal trajectory based on a give
 F1TENTH ROS code.
 """
 # MAP_NAME = "e7_floor5_large"
-MAP_NAME = "FTM_clean2_ws25"
+MAP_NAME = "FTM_clean_middle"               # Rechnung / shortest_path
+MAP_NAME_PLOT = "FTM_clean2_ws25"      # nur Plot-Hintergrund / Bounds
+
 
 # ----------------------------------------------------------------------------------------------------------------------
 # USER INPUT -----------------------------------------------------------------------------------------------------------
@@ -62,7 +64,7 @@ imp_opts = {"flip_imp_track": False,                # flip imported track to rev
 # 'mincurv'             minimum curvature optimization without iterative call
 # 'mincurv_iqp'         minimum curvature optimization with iterative call
 # 'mintime'             time-optimal trajectory optimization
-opt_type = 'mintime'
+opt_type = 'shortest_path'
 
 # set mintime specific options (mintime only) --------------------------------------------------------------------------
 # tpadata:                      set individual friction map data file if desired (e.g. for varmue maps), else set None,
@@ -564,27 +566,63 @@ print("INFO: Finished export of trajectory:", time.strftime("%H:%M:%S"))
 # PLOT RESULTS ---------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------
 
-# get bound of imported map (for reference in final plot)
-bound1_imp = None
-bound2_imp = None
+# --- load original track only for plotting
+if MAP_NAME_PLOT is not None:
+    track_file_plot = os.path.join(file_paths["module"], "inputs", "tracks", MAP_NAME_PLOT + ".csv")
+
+    reftrack_imp_plot = helper_funcs_glob.src.import_track.import_track(
+        imp_opts=imp_opts,
+        file_path=track_file_plot,
+        width_veh=pars["veh_params"]["width"]
+    )
+
+    reftrack_interp_plot, normvec_plot, a_plot, coeffs_x_plot, coeffs_y_plot = \
+        helper_funcs_glob.src.prep_track.prep_track(
+            reftrack_imp=reftrack_imp_plot,
+            reg_smooth_opts=pars["reg_smooth_opts"],
+            stepsize_opts=pars["stepsize_opts"],
+            debug=False,
+            min_width=imp_opts["min_track_width"]
+        )
+
+    bound1_plot = reftrack_interp_plot[:, :2] + normvec_plot * reftrack_interp_plot[:, 2][:, None]
+    bound2_plot = reftrack_interp_plot[:, :2] - normvec_plot * reftrack_interp_plot[:, 3][:, None]
+    refline_plot = reftrack_interp_plot[:, :2]
+else:
+    # fallback: plot same track that was used for optimization
+    refline_plot = reftrack_interp[:, :2]
+    bound1_plot = bound1
+    bound2_plot = bound2
+
+# --- adapt imported bounds to match the track used for plotting
+bound1_imp_plot = None
+bound2_imp_plot = None
 
 if plot_opts["imported_bounds"]:
-    # try to extract four times as many points as in the interpolated version (in order to hold more details)
-    n_skip = max(int(reftrack_imp.shape[0] / (bound1.shape[0] * 4)), 1)
+    # choose the correct imported track for plotting
+    reftrack_imp_for_plot = reftrack_imp_plot if MAP_NAME_PLOT is not None else reftrack_imp
 
-    _, _, _, normvec_imp = tph.calc_splines.calc_splines(path=np.vstack((reftrack_imp[::n_skip, 0:2],
-                                                                         reftrack_imp[0, 0:2])))
+    # use the interpolated bound length as reference for skipping
+    bound_len_ref = bound1_plot.shape[0]
 
-    bound1_imp = reftrack_imp[::n_skip, :2] + normvec_imp * np.expand_dims(reftrack_imp[::n_skip, 2], 1)
-    bound2_imp = reftrack_imp[::n_skip, :2] - normvec_imp * np.expand_dims(reftrack_imp[::n_skip, 3], 1)
+    # try to extract four times as many points as in the interpolated version
+    n_skip_plot = max(int(reftrack_imp_for_plot.shape[0] / (bound_len_ref * 4)), 1)
+
+    _, _, _, normvec_imp_plot = tph.calc_splines.calc_splines(
+        path=np.vstack((reftrack_imp_for_plot[::n_skip_plot, 0:2],
+                        reftrack_imp_for_plot[0, 0:2]))
+    )
+
+    bound1_imp_plot = reftrack_imp_for_plot[::n_skip_plot, :2] + normvec_imp_plot * np.expand_dims(reftrack_imp_for_plot[::n_skip_plot, 2], 1)
+    bound2_imp_plot = reftrack_imp_for_plot[::n_skip_plot, :2] - normvec_imp_plot * np.expand_dims(reftrack_imp_for_plot[::n_skip_plot, 3], 1)
 
 # plot results
 helper_funcs_glob.src.result_plots.result_plots(plot_opts=plot_opts,
                                                 width_veh_opt=pars["optim_opts"]["width_opt"],
                                                 width_veh_real=pars["veh_params"]["width"],
-                                                refline=reftrack_interp[:, :2],
-                                                bound1_imp=bound1_imp,
-                                                bound2_imp=bound2_imp,
-                                                bound1_interp=bound1,
-                                                bound2_interp=bound2,
+                                                refline=refline_plot,
+                                                bound1_imp=bound1_imp_plot,
+                                                bound2_imp=bound2_imp_plot,
+                                                bound1_interp=bound1_plot,
+                                                bound2_interp=bound2_plot,
                                                 trajectory=trajectory_opt)
