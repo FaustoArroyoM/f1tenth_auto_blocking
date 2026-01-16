@@ -1,2 +1,4 @@
 .vscode
-f1tenth_ws/log
+**/build/
+**/log/
+**/install/
