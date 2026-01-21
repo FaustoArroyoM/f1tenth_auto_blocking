@@ -25,6 +25,12 @@ image_zed = sl.Mat()
 objects = sl.Objects()
 runtime_params = sl.RuntimeParameters()
 
+# parameters
+vehicle_height = 0.2 # real height in meters
+focal_length = 528.15 # focal length of zed2
+offset_bb_measure = 0.17 # in meters
+offset_stereo_cam = 0.2 # in meters
+
 print("Visualizer Active. Press 'q' to quit.")
 
 while True:
@@ -42,8 +48,19 @@ while True:
         for r in results:
             for box in r.boxes:
                 b = box.xyxy[0].cpu().numpy().astype(int)
+                # get height and width of bounding box
+                x1, y1, x2, y2 = b
+                bbox_width_px  = x2 - x1
+                bbox_height_px = y2 - y1
+                dist_from_bb = vehicle_height*focal_length/bbox_height_px - offset_bb_measure
                 # Draw YOLO 2D Box (Green)
                 cv2.rectangle(render_frame, (b[0], b[1]), (b[2], b[3]), (0, 255, 0), 2)
+                
+                # show pixel dimensions in the image
+                size_label = f"W:{bbox_width_px}px H:{bbox_height_px}px Dist_bb:{dist_from_bb:.2f}m"
+                cv2.putText(render_frame, size_label,
+                           (x1, y2 + 15),
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
                 
                 tmp = sl.CustomBoxObjectData()
                 tmp.bounding_box_2d = np.array([[b[0], b[1]], [b[2], b[1]], [b[2], b[3]], [b[0], b[3]]])
@@ -59,14 +76,15 @@ while True:
             if obj.tracking_state == sl.OBJECT_TRACKING_STATE.OK:
                 # Get 2D position for text overlay
                 pos_2d = obj.bounding_box_2d[0] 
-                dist = obj.position[2]
+                dist = obj.position[2] - offset_stereo_cam
                 vel_z = obj.velocity[2]
                 
                 # Overlay Text: ID, Distance, and Velocity
-                label = f"ID:{obj.id} Dist:{dist:.1f}m Vz:{vel_z:.1f}m/s"
+                label = f"ID:{obj.id} Dist:{dist:.2f}m Vz:{vel_z:.1f}m/s"
                 cv2.putText(render_frame, label, (int(pos_2d[0]), int(pos_2d[1]-10)), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
-
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                if dist_from_bb < 1:
+                    dist = dist_from_bb
         # Display Window
         cv2.imshow("F1TENTH Racing Monitor", render_frame)
         
