@@ -1,7 +1,7 @@
 race_tracker_node:
   ros__parameters:
     # YOLO model path (installed to package)
-    yolo_model_path: "package://car_distance_estimator/models/best.engine"
+    yolo_model_path: "/home/f1tenth/f1tenth_auto_blocking/install/car_distance_estimator/share/car_distance_estimator/models/best.engine"
     
     # YOLO thresholds
     yolo_conf_threshold: 0.4

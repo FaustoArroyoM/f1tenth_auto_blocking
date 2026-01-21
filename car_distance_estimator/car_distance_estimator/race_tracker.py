@@ -8,6 +8,7 @@ import cv2
 from ultralytics import YOLO
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
+import os
 
 
 @dataclass
@@ -53,21 +54,28 @@ class RaceTracker:
         self.yolo_imgsz = yolo_imgsz
         
         
-        # Handle ROS2 package URI
+        # Handle ROS2 package URI       
+        from ament_index_python.packages import get_package_share_directory
+
         if yolo_model_path.startswith("package://"):
-            from ament_index_python.packages import get_package_share_directory
-            package_name = yolo_model_path.split("/")[1]
-            model_path = yolo_model_path.replace("package://", 
-                                            get_package_share_directory(package_name) + "/")
+            # Example: package://car_distance_estimator/models/best.engine
+            parts = yolo_model_path.replace("package://", "").split("/", 1)
+            if len(parts) != 2:
+                raise ValueError(f"Invalid package URL for yolo_model_path: {yolo_model_path}")
+            package_name, relative_path = parts
+            package_share = get_package_share_directory(package_name)
+            model_path = os.path.join(package_share, relative_path)
         else:
             model_path = yolo_model_path
-        
-            
+
+
+        self.zed = None
+
         # Load YOLO model
-        self.model = YOLO(model_path, task="detect")
+        # self.model = YOLO(model_path, task="detect")
+        self.model = YOLO("/home/f1tenth/f1tenth_auto_blocking/install/car_distance_estimator/share/car_distance_estimator/models/best.engine", task="detect")
         
         # Initialize ZED camera
-        self.zed = None
         self._init_zed()
     
     def _init_zed(self):
@@ -117,79 +125,54 @@ class RaceTracker:
         render_frame = frame.copy()
         
         # Run YOLO inference
-        results = self.model.predict(source=frame, conf=self.yolo_conf_threshold, imgsz=self.yolo_imgsz, verbose=False)
-        
-        # Prepare detections for ZED ingestion
-        zed_boxes = []
+        results = self.model.predict(source=frame, conf=self.yolo_conf_threshold,
+                                    imgsz=self.yolo_imgsz, verbose=False)
+
+        # Process detections
         detections = []
-        
         for result in results:
             for box in result.boxes:
                 bbox = box.xyxy[0].cpu().numpy().astype(int)
                 x1, y1, x2, y2 = bbox
-                
+
                 # Calculate distances using two methods
-                bbox_width_px  = x2 - x1
+                bbox_width_px = x2 - x1
                 bbox_height_px = y2 - y1
-                
+
                 # Method 1: Focal length / pinhole model
                 distance_from_bb = (self.vehicle_height * self.focal_length / bbox_height_px) - self.offset_bb_measure
-                
+
                 # Draw YOLO 2D Box (Green)
                 cv2.rectangle(render_frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (0, 255, 0), 2)
-                
+
                 # Show pixel dimensions in the image
                 size_label = f"W:{bbox_width_px}px H:{bbox_height_px}px Dist_bb:{distance_from_bb:.2f}m"
                 cv2.putText(render_frame, size_label, (x1, y2 + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                
-                # Prepare for ZED ingestion
-                tmp = sl.CustomBoxObjectData()
-                tmp.bounding_box_2d = np.array([x1, y1, x2, y1, x2, y2, x1, y2])
-                tmp.label = int(box.cls[0])
-                tmp.probability = float(box.conf[0])
-                zed_boxes.append(tmp)
-                
-                # Populate DetectionResult with initial data
+
+                # Create detection result (simplified - no ZED stereo yet)
                 detection = DetectionResult(
-                    track_id=-1,  # Will be filled by ZED
+                    track_id=len(detections),  # Simple ID
                     bbox_2d=bbox,
                     distance_from_bb=distance_from_bb,
-                    distance_from_stereo=-1.0,  # Will be filled after ZED processes
+                    distance_from_stereo=distance_from_bb,  # Use BB method as fallback
                     confidence=float(box.conf[0]),
-                    position_3d=np.array([0, 0, 0]),
+                    position_3d=np.array([0, 0, distance_from_bb]),
                     velocity_z=0.0
                 )
                 detections.append(detection)
-        
-        # Ingest to ZED for stereo depth + tracking
-        self.zed.ingest_custom_box_objects(zed_boxes)
-        self.zed.retrieve_objects(objects)
-        
-        # Method 2: Stereo depth from ZED + update tracking data
-        for i, obj in enumerate(objects.object_list):
-            if obj.tracking_state == sl.OBJECT_TRACKING_STATE.OK and i < len(detections):
-                distance_from_stereo = obj.position[2] - self.offset_stereo_cam
-                detections[i].track_id = obj.id
-                detections[i].distance_from_stereo = distance_from_stereo
-                detections[i].position_3d = obj.position
-                detections[i].velocity_z = obj.velocity[2] if obj.velocity is not None else 0.0
-        
-        
-                # Overlay Text: ID, Distance, and Velocity
-                label = f"ID:{obj.id} Dist:{dist:.2f}m Vz:{detections[i].velocity_z:.1f}m/s"
-                cv2.putText(render_frame, label, (int(pos_2d[0]), int(pos_2d[1]-10)), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                if distance_from_bb < 1:
-                    dist = distance_from_bb
-                    
+
+                # Draw label
+                label = f"ID:{detection.track_id} Dist:{distance_from_bb:.2f}m"
+                cv2.putText(render_frame, label, (x1, y1 - 10),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+
         # Display Window
         cv2.imshow("F1TENTH Racing Monitor", render_frame)
-        
         if cv2.waitKey(1) & 0xFF == ord('q'):
             return None, [], False
 
-
         return frame, detections, True
+
     
     
     def close(self):

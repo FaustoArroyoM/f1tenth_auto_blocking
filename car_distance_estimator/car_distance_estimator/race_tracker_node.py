@@ -11,11 +11,7 @@ import json
 from cv_bridge import CvBridge
 
 from .race_tracker import RaceTracker, DetectionResult
-# Import the distance calculator
-from race_tracker import (
-    RaceTracker,
-    DetectionResult
-)
+
 
 class RaceTrackerNode(Node):
     """ROS2 node for real-time race tracking."""
@@ -133,8 +129,10 @@ class RaceTrackerNode(Node):
                 self.pub_frame.publish(msg_frame)
         
         except Exception as e:
+            import traceback
             self.get_logger().error(f'Error in process loop: {e}')
-    
+            self.get_logger().error(traceback.format_exc())    
+
     def _detections_to_json(self, detections: list) -> str:
         """Convert detections to JSON string."""
         data = {
