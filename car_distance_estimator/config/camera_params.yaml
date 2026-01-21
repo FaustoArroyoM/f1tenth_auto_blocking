@@ -1,0 +1,27 @@
+# Camera parameters for ZED-2
+car_distance_estimator:
+  ros__parameters:
+    # TODO ZED-2 Camera specifications
+    sensor_width_px: 2688
+    sensor_width_mm: 6.912
+    focal_length_mm: 2.12
+    
+    # Known object dimensions
+    known_car_height: 0.20  # 20cm car height
+    
+    # TODO ROS Topic names
+    yolo_topic: "/yolo/detections"
+    depth_topic: "/zed2/depth/depth_registered"
+    
+    # Calibration data file path (optional)
+    # Set to full path if you have calibration data
+    calibration_data_path: ""
+    
+    # Enable/disable distance estimation methods
+    enable_stereo_depth: true
+    enable_focal_length: true
+    enable_calibration: true    
+    enable_hybrid: true
+    
+    # Debug logging
+    debug_mode: false

@@ -1,0 +1,30 @@
+[
+  {
+    "distance_m": 2.0,
+    "bbox_height_px": 250
+  },
+  {
+    "distance_m": 3.0,
+    "bbox_height_px": 170
+  },
+  {
+    "distance_m": 5.0,
+    "bbox_height_px": 100
+  },
+  {
+    "distance_m": 7.0,
+    "bbox_height_px": 75
+  },
+  {
+    "distance_m": 10.0,
+    "bbox_height_px": 50
+  },
+  {
+    "distance_m": 15.0,
+    "bbox_height_px": 35
+  },
+  {
+    "distance_m": 20.0,
+    "bbox_height_px": 25
+  }
+]
