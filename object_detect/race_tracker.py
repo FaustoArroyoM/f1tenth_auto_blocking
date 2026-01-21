@@ -53,6 +53,7 @@ while True:
                 bbox_width_px  = x2 - x1
                 bbox_height_px = y2 - y1
                 dist_from_bb = vehicle_height*focal_length/bbox_height_px - offset_bb_measure
+                
                 # Draw YOLO 2D Box (Green)
                 cv2.rectangle(render_frame, (b[0], b[1]), (b[2], b[3]), (0, 255, 0), 2)
                 

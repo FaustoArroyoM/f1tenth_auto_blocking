@@ -11,6 +11,12 @@ from typing import Optional, Tuple, Dict
 import rclpy
 from rclpy.node import Node
 
+
+# try:
+#     import pyzed.sl as sl
+# except ImportError:
+#     sl = None  # Fallback if pyzed not installed
+
 @dataclass
 class DistanceResult:
     """Container for distance estimation results from all three methods."""
@@ -20,6 +26,7 @@ class DistanceResult:
     hybrid: Optional[float] = None
     confidence: float = 0.0 #TODO 
     timestamp: float = 0.0
+    
     
     def to_dict(self) -> dict:
         """Convert to dictionary for easy logging/publishing."""
@@ -35,7 +42,7 @@ class DistanceResult:
 
 class CarDistanceCalculator:
     """
-    Multi-method distance calculator for racing cars.
+    Multi-method distance calculator with PyZED integration.
     
     Attributes:
         sensor_width_px: Camera sensor width in pixels (
@@ -47,11 +54,12 @@ class CarDistanceCalculator:
         calibration_func: Pre-trained empirical calibration function
     """
     
+    #TODO change this to be loaded from the congig YAML fileS
     def __init__(self, 
-                 sensor_width_px: int = 2688,
-                 sensor_width_mm: float = 6.912,
-                 focal_length_mm: float = 2.12,
-                 known_car_height: float = 0.20,
+                 sensor_width_px: int,
+                 sensor_width_mm: float,
+                 focal_length_mm: float,
+                 known_car_height: float,
                  camera_matrix: Optional[np.ndarray] = None,
                  dist_coeffs: Optional[np.ndarray] = None):
         """
@@ -72,13 +80,35 @@ class CarDistanceCalculator:
         
         self.camera_matrix = camera_matrix
         self.dist_coeffs = dist_coeffs
+        # self.use_pyzed = use_pyzed
         
         # Calculate focal length in pixels
         px_per_mm = sensor_width_px / sensor_width_mm
         self.focal_length_px = focal_length_mm * px_per_mm
         
+        # PyZED camera object (lazy initialized)
+        # self.zed = None
+        # if sl.use_pyzed and sl is not None:
+        #     self._init_pyzed()
+        
         # TODO Calibration function (will be set with set_calibration_data) --> Do this tomorrow and get even more examples maybe
         self.calibration_func = None
+        
+        
+    @classmethod
+    def from_ros_node(cls, ros_node: Node):
+        """
+        Factory method: Create calculator from ROS2 node parameters.
+        
+        Args:
+            ros_node: Node that has already called declare_parameter()
+        """
+        return cls(
+            sensor_width_px=ros_node.sensor_width_px,
+            sensor_width_mm=ros_node.sensor_width_mm,
+            focal_length_mm=ros_node.focal_length_mm,
+            known_car_height=ros_node.known_car_height
+        )
         
     # ==================== METHOD 1: STEREO DEPTH ====================
     

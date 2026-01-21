@@ -36,12 +36,7 @@ class CarDistanceNode(Node):
         self._init_parameters()
         
         # Create distance calculator
-        self.calculator = CarDistanceCalculator(
-            sensor_width_px=self.sensor_width_px,
-            sensor_width_mm=self.sensor_width_mm,
-            focal_length_mm=self.focal_length_mm,
-            known_car_height=self.known_car_height
-        )
+        self.calculator = CarDistanceCalculator.from_ros_node(self)
         
         # Load calibration data if provided
         if self.calibration_data_path:

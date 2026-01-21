@@ -1,0 +1,21 @@
+race_tracker_node:
+  ros__parameters:
+    # YOLO model path (installed to package)
+    yolo_model_path: "package://car_distance_estimator/models/best.engine"
+    
+    # YOLO thresholds
+    yolo_conf_threshold: 0.4
+    yolo_imgsz: 640
+    
+    # Vehicle measurements (in meters)
+    vehicle_height: 0.20
+    
+    # Camera calibration
+    focal_length: 528.15
+    
+    # Distance method offsets (in meters)
+    offset_bb_measure: 0.17
+    offset_stereo_cam: 0.20
+    
+    # Debug
+    debug_mode: false
