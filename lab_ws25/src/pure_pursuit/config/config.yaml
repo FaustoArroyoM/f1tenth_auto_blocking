@@ -1,6 +1,6 @@
 pure_pursuit_node:
   ros__parameters:
-    waypoints_path: "/home/f1tenth/lab_ws25/src/pure_pursuit/racelines/mintime.csv"
+    waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_outside.csv"
     odom_topic: "/pf/pose/odom"
     car_refFrame: "laser"
     global_refFrame: "map"
@@ -12,13 +12,13 @@ pure_pursuit_node:
     # min_lookahead: 0.5 # for square track
     min_lookahead: 1.0
     max_lookahead: 3.0 # lookahead when the car is going around max velocity
-    lookahead_ratio: 6.0 # approximately the max velocity
+    lookahead_ratio: 5.0 # approximately the max velocity
     # K_p: 0.25 # for square track
-    K_p: 0.3 # for big track
+    K_p: 0.35 # for big track
     steering_limit: 25.0
-    velocity_percentage: 1.2 # the limit, can only do 1 lap with clean tires
+    velocity_percentage: 0.8 # the limit, can only do 1 lap with clean tires
 
 
 waypoint_visualiser_node:
   ros__parameters:
-    waypoints_path: "/home/f1tenth/lab_ws25/src/pure_pursuit/racelines/mintime.csv" 
+    waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_outside.csv"

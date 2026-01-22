@@ -44,6 +44,12 @@ ament_target_dependencies(pure_pursuit_node
   rclcpp geometry_msgs ackermann_msgs nav_msgs sensor_msgs std_msgs visualization_msgs tf2_ros tf2 eigen3_cmake_module Eigen3
 )
 
+add_executable(pure_pursuit_multi_node src/pure_pursuit_multi_node.cpp)
+
+ament_target_dependencies(pure_pursuit_multi_node 
+  rclcpp geometry_msgs ackermann_msgs nav_msgs sensor_msgs std_msgs visualization_msgs tf2_ros tf2 eigen3_cmake_module Eigen3
+)
+
 add_executable(waypoint_visualiser_node src/waypoint_visualiser_node.cpp)
 
 ament_target_dependencies(waypoint_visualiser_node 
@@ -56,6 +62,10 @@ install(TARGETS
   waypoint_visualiser_node
   DESTINATION lib/${PROJECT_NAME})
 
+install(TARGETS
+  pure_pursuit_multi_node
+  waypoint_visualiser_node
+  DESTINATION lib/${PROJECT_NAME})
   
 # Install launch files and config
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
