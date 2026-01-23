@@ -18,6 +18,7 @@ class DetectionResult:
     bbox_2d: np.ndarray  # [x1, y1, x2, y2]
     distance_from_bb: float  # Focal length method
     distance_from_stereo: float  # Stereo depth method
+    bbox_center: float # center of bounding box 
     confidence: float
     position_3d: np.ndarray  # [x, y, z] from ZED
     velocity_z: float
@@ -138,7 +139,7 @@ class RaceTracker:
                 # Calculate distances using two methods
                 bbox_width_px = x2 - x1
                 bbox_height_px = y2 - y1
-
+                bbox_center = (x1+x2)*0.5
                 # Method 1: Focal length / pinhole model
                 distance_from_bb = (self.vehicle_height * self.focal_length / bbox_height_px) - self.offset_bb_measure
 
@@ -155,6 +156,7 @@ class RaceTracker:
                     bbox_2d=bbox,
                     distance_from_bb=distance_from_bb,
                     distance_from_stereo=distance_from_bb,  # Use BB method as fallback
+                    bbox_center=bbox_center,
                     confidence=float(box.conf[0]),
                     position_3d=np.array([0, 0, distance_from_bb]),
                     velocity_z=0.0
@@ -162,7 +164,7 @@ class RaceTracker:
                 detections.append(detection)
 
                 # Draw label
-                label = f"ID:{detection.track_id} Dist:{distance_from_bb:.2f}m"
+                label = f"ID:{detection.track_id} Dist:{distance_from_bb:.2f} bbox:{bbox_center:.2f}[Pixels]"
                 cv2.putText(render_frame, label, (x1, y1 - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 

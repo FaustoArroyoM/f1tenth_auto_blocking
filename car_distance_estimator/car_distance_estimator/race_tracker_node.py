@@ -37,7 +37,7 @@ class RaceTrackerNode(Node):
         self.pub_distance_focal = self.create_publisher(Float32, '/race_tracker/distance_bb', 10)
         self.pub_distance_stereo = self.create_publisher(Float32, '/race_tracker/distance_stereo', 10)
         self.pub_distance = self.create_publisher(Float32, '/race_tracker/distance_car', 10)
-
+        self.pub_center = self.create_publisher(Float32, '/race_tracker/bbox_center', 10)
         self.pub_all_detections = self.create_publisher(String, '/race_tracker/detections', 10)
         self.pub_frame = self.create_publisher(Image, '/race_tracker/frame_annotated', 10)
         
@@ -104,6 +104,9 @@ class RaceTrackerNode(Node):
                     self.pub_distance_stereo.publish(msg_stereo)
                     
                     
+                    
+                  
+                    
                     # Use focal if the car is closer, else stereo
                     if closest.distance_from_bb > 1.0:
                         msg_distance = Float32(data=closest.distance_from_stereo)
@@ -111,6 +114,9 @@ class RaceTrackerNode(Node):
                         msg_distance = Float32(data=closest.distance_from_bb)
                         
                     self.pub_distance.publish(msg_distance)
+
+                    msg_center = Float32(data=closest.bbox_center)
+                    self.pub_center.publish(msg_center)
                     
                     if self.debug_mode:
                         self.get_logger().info(
@@ -143,6 +149,7 @@ class RaceTrackerNode(Node):
                     'bbox': [int(d.bbox_2d[0]), int(d.bbox_2d[1]), 
                              int(d.bbox_2d[2]), int(d.bbox_2d[3])],
                     'distance_bb': round(d.distance_from_bb, 2),
+                    'bbox center': round(d.bbox_center, 2),
                     'distance_stereo': round(d.distance_from_stereo, 2),
                     'confidence': round(d.confidence, 2),
                 }
