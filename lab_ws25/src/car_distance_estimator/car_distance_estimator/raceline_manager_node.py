@@ -2,6 +2,12 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int32, Float32, String
 
+
+
+ # TODO variable if bbox value is the same for 30 iterations; default to middle raceline
+ # TODO issue if subscribes to a bbox_center value of None (sees no car at the start)--> defautls to inner line and it shouldnt happen
+ # TODO only activate ID change if car dsitance is shorter than 1 AND has change in the last 30 iterations
+ # TODO do we want to change the dataclass for DetectionResult to have a success=Trur/False bool?? 
 class RacelineManagerNode(Node):
 
     def __init__(self):
@@ -23,9 +29,6 @@ class RacelineManagerNode(Node):
         self.declare_parameter('raceline_ID', 1)
         self.raceline_ID = self.get_parameter('raceline_ID').value
 
-        self.declare_parameter('car_detection', False)
-        self.car_detection = self.get_parameter('car_detection').value
-        
         self.declare_parameter('bbox_center', 1)
         self.bbox_center = self.get_parameter('bbox_center').value
         
@@ -40,23 +43,24 @@ class RacelineManagerNode(Node):
     def _process_loop(self):
         
         # Normalize bbox center position and decide raceline ID based on buffer
+        # TODO changed see next time if the are working
         bbox_center_norm = self.bbox_center / self.image_width  
         
         if bbox_center_norm < 0.5 - self.bbox_center_buffer:
-            raceline_ID = 0  # Inner line
+            raceline_ID = 2  # Inner line
         elif bbox_center_norm > 0.5 + self.bbox_center_buffer:
-            raceline_ID = 2  # Outer line
+            raceline_ID = 0  # Outer line
         else:
             raceline_ID = 1  # Middle line
 
         if raceline_ID != self.raceline_ID:
-            self.get_logger().info('Raceline ID changed from "%d" to "%d"' % (self.pub_raceline_ID, raceline_ID))
+            self.get_logger().info('Raceline ID changed from "%d" to "%d"' % (self.raceline_ID, raceline_ID))
             self.raceline_ID = raceline_ID
-            msg = Int32(self.raceline_ID)
+            msg = Int32(data=self.raceline_ID)
             self.pub_raceline_ID.publish(msg)
             
         else:
-            self.get_logger().info('Current raceline is ID: "%d"' % self.pub_raceline_ID)
+            self.get_logger().info('No detecttion, keeping raceline with ID: "%d"' % self.raceline_ID)
 
 
 
