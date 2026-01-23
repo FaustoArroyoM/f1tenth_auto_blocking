@@ -8,19 +8,18 @@ pure_pursuit_multi_node:
     rviz_waypointselected_topic: "/waypoint_selected"
     steering_limit: 25.0
   
-
-    # --- Middle Line (0) ---
-    middle:
-      waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_middle.csv"
+    # --- Inner Line (0) ---
+    inner:
+      waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_inside.csv"
       min_lookahead: 1.0
       max_lookahead: 3.0
       lookahead_ratio: 8.0
       K_p: 0.2
       velocity_percentage: 0.6
-    
-    # --- Inner Line (1) ---
-    inner:
-      waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_inside.csv"
+
+    # --- Middle Line (1) ---
+    middle:
+      waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_middle.csv"
       min_lookahead: 1.0
       max_lookahead: 3.0
       lookahead_ratio: 8.0

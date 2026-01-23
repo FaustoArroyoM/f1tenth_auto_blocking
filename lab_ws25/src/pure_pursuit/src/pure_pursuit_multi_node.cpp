@@ -37,8 +37,8 @@ public:
         this->declare_parameter("steering_limit", 25.0);
         this->declare_parameter("lookahead_ratio", 8.0);
 
-        // Load specific parameters for Middle (0), Inner (1), Outer (2)
-        std::vector<std::string> prefixes = {"middle", "inner", "outer"};
+        // Load specific parameters for Inner (0), Middle (1), Outer (2)
+        std::vector<std::string> prefixes = {"inner", "middle", "outer"};
         for (int i = 0; i < 3; ++i) {
             std::string p = prefixes[i];
             this->declare_parameter(p + ".waypoints_path", "");
@@ -95,7 +95,7 @@ private:
     };
 
     std::map<int, LineData> racing_lines;
-    int active_lane = 0; 
+    int active_lane = 1; // Default to middle lane 
     geometry_msgs::msg::Quaternion odom_quat;
     Eigen::Matrix3d rotation_m;
     Eigen::Vector3d p1_car;
