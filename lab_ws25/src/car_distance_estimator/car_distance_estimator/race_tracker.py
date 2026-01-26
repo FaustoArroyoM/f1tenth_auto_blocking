@@ -3,7 +3,14 @@
 import numpy as np
 np.bool = bool  # Fix TensorRT/Numpy compatibility
 
-import pyzed.sl as sl
+try:
+    import pyzed.sl as sl
+    HAS_PYZED = True
+except ImportError:
+    HAS_PYZED = False
+    sl = None
+
+# import pyzed.sl as sl
 import cv2
 from ultralytics import YOLO
 from dataclasses import dataclass
@@ -81,6 +88,12 @@ class RaceTracker:
     
     def _init_zed(self):
         """Initialize ZED-2 camera."""
+
+        if not HAS_PYZED:
+            self.get_logger().warning("PyZED not available - test mode only!")
+            self.zed = None
+            return
+        
         self.zed = sl.Camera()
         
         # Camera configuration

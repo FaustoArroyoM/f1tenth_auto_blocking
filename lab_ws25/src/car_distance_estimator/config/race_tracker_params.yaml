@@ -39,7 +39,7 @@ raceline_manager_node:
     iterations_without_detection: 0
 
     # Max iterations before allowing raceline ID change
-    iterations_threshold_for_changing_ID: 10
+    iterations_threshold_for_changing_ID: 20
 
     # Max iterations without detection before switching to default raceline
     iterations_before_defaulting_ID: 30

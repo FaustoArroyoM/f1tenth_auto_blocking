@@ -3,8 +3,8 @@ from rclpy.node import Node
 from std_msgs.msg import Int32, Float32, String
 
 
-
- # TODO do we want to change the dataclass for DetectionResult to have a success=Trur/False bool?? 
+# TODO state machine where are we right now
+# TODO do we want to change the dataclass for DetectionResult to have a success=Trur/False bool?? 
 class RacelineManagerNode(Node):
 
     def __init__(self):
@@ -14,8 +14,14 @@ class RacelineManagerNode(Node):
 
         self.iterations_without_detection = 0        
         self.iterations_without_changing_ID = 0
+        
+        self.bbox_center_prev = None
+        
         self.bbox_center = None
-        self.distance_car = None    
+        self.distance_car = None
+        
+        # State machine (init to default raceline ID)    
+        self.current_state_ID = self.raceline_ID
 
         self.bbox_center_subscription = self.create_subscription(Float32,'/race_tracker/bbox_center',  self._bbox_center_callback, 10)
         self.distance_car_subscription = self.create_subscription(Float32,'/race_tracker/distance_car',  self._distance_car_callback, 10)
@@ -23,8 +29,8 @@ class RacelineManagerNode(Node):
         self.pub_raceline_ID = self.create_publisher(Int32, '/active_raceline', 10)
         self.timer = self.create_timer(self.node_timer_rate, self._process_loop)  # TODO ~30 Hz
         
-        
-
+        +self.get_logger().info('RacelineManagerNode initialized')
+        self.get_logger().info(f'  Starting raceline: {self.raceline_ID}')
 
 
     def _init_parameters(self):
@@ -46,7 +52,7 @@ class RacelineManagerNode(Node):
         self.declare_parameter('camera_image_width', 1280)
         self.image_width = self.get_parameter('camera_image_width').value
 
-        self.declare_parameter('iterations_threshold_for_changing_ID', 5)
+        self.declare_parameter('iterations_threshold_for_changing_ID', 10)
         self.iterations_threshold_for_changing_ID = self.get_parameter('iterations_threshold_for_changing_ID').value
 
         self.declare_parameter('iterations_before_defaulting_ID', 30)
@@ -99,52 +105,78 @@ class RacelineManagerNode(Node):
         self.iterations_without_detection += 1
         self.iterations_without_changing_ID += 1
         
-        # Check if car is within distance threshold (1m) 
-        if self.distance_car < self.blocking_distance_threshold and self.distance_car is not None:
+        # Check if car is within distance threshold (1m), bbox center is valid, and change ID debounce threshold is met
+        
+        # Car detected within blocking distance
+        if (self.distance_car is not None
+            and self.distance_car < self.blocking_distance_threshold 
+            and self.bbox_center is not None 
+            and self.bbox_center != self.bbox_center_prev 
+        ): 
+            # Reset detection counter
+            self.iterations_without_detection = 0
             
-            # Normalize bbox center position and decide raceline ID based on buffer
-            bbox_center_norm = self.bbox_center / self.image_width  
-
-            if self.bbox_center != 0 and self.bbox_center is not None: # TODO check tomorrow in the lab 
-
-                if bbox_center_norm < 0.5 - self.bbox_center_buffer:
-                    raceline_ID = 0  # Inner line
-                elif bbox_center_norm > 0.5 + self.bbox_center_buffer:
-                    raceline_ID = 2  # Outer line
-                else:
-                    raceline_ID = 1  # Middle line
-
-                if raceline_ID != self.raceline_ID and self.iterations_without_changing_ID >= self.iterations_threshold_for_changing_ID:
-                    self.get_logger().info('Raceline ID changed from "%d" to "%d"' % (self.raceline_ID, raceline_ID))
-                    self.raceline_ID = raceline_ID
-                    msg = Int32(data=self.raceline_ID)
-                    self.pub_raceline_ID.publish(msg)
-                    self.iterations_without_changing_ID = 0
+            # If we can change raceline ID start switching logic:
+            if self.iterations_without_changing_ID >= self.iterations_threshold_for_changing_ID:
                 
-                self.iterations_without_detection = 0
+                # Normalize bbox center position and decide raceline ID based on buffer
+                bbox_center_norm = self.bbox_center / self.image_width  
                 
-            else:
-                self.get_logger().info('No detection, keeping raceline with ID: "%d"' % self.raceline_ID)
+                raceline_ID = self.raceline_ID  # Init with current raceline ID
                 
-                # Default to middle raceline if no detection for 30 iterations
-                if self.iterations_without_detection >= self.iterations_before_defaulting_ID:
-                    self.raceline_ID = 1
-                    msg = Int32(data=self.raceline_ID)
-                    self.pub_raceline_ID.publish(msg)
-                    self.get_logger().info('No detection for 30 iterations, defaulting to middle raceline with ID: "%d"' % self.raceline_ID)
-                    self.iterations_without_detection = 0
+                if self.bbox_center is not None and self.bbox_center != 0: # TODO check tomorrow in the lab                 
+                    if self.current_state_ID == 1: # Normal driving state (middle raceline)
+                        if bbox_center_norm < 0.5 - self.bbox_center_buffer:
+                            raceline_ID = 0  # Change to Outer line
+                        elif bbox_center_norm > 0.5 + self.bbox_center_buffer:
+                            raceline_ID = 2  # Change to Inner line
                     
-        else:
+                    # Inner raceline state; change to middle line if car is detected on the left
+                    elif self.current_state_ID == 2 and bbox_center_norm < 0.5 - self.bbox_center_buffer:
+                            raceline_ID = 1  # Change to Middle line
+                            
+                    # Outer raceline state; change to middle line if car is detected on the right
+                    elif self.current_state_ID == 0 and bbox_center_norm > 0.5 - self.bbox_center_buffer:
+                            raceline_ID = 1  # Change to Middle line
+                    
+                    if raceline_ID != self.raceline_ID:
+                            self.get_logger().info('Raceline ID changed from "%d" to "%d"' % (self.raceline_ID, raceline_ID))
+                            self.raceline_ID = raceline_ID
+                            msg = Int32(data=self.raceline_ID)
+                            self.pub_raceline_ID.publish(msg)
+                            self.current_state_ID = self.raceline_ID
+                            self.get_logger().info('Current state ID changed to "%d"' % (self.current_state_ID))
+                            # Reset change debounce counter
+                            self.iterations_without_changing_ID = 0
+
+        # Car detected but far away
+        elif self.distance_car is not None and self.distance_car >= self.blocking_distance_threshold:
             self.get_logger().info('Car too far (distance: "%f"), keeping raceline with ID: "%d"' % (self.distance_car, self.raceline_ID))
-            if self.iterations_without_detection >= self.iterations_before_defaulting_ID:
-                if self.raceline_ID != 1 and self.iterations_without_changing_ID >= self.iterations_threshold_for_changing_ID:
+            
+            # Threshold is shortened since car is far away
+            if self.iterations_without_changing_ID >= self.iterations_threshold_for_changing_ID:
+                if self.raceline_ID != 1:
                     self.raceline_ID = 1
                     msg = Int32(data=self.raceline_ID)
                     self.pub_raceline_ID.publish(msg)
                     self.iterations_without_changing_ID = 0
 
+            self.get_logger().info('No detection for 30 iterations, defaulting to middle raceline with ID: "%d"' % self.raceline_ID)
+            self.iterations_without_detection = 0
+
+        # No detection case      
+        else:
+            self.get_logger().info('No detection, keeping raceline with ID: "%d"' % self.raceline_ID)
+            
+            # Default to middle raceline if no detection for 30 iterations
+            if self.iterations_without_detection >= self.iterations_before_defaulting_ID:
+                self.raceline_ID = 1
+                msg = Int32(data=self.raceline_ID)
+                self.pub_raceline_ID.publish(msg)
                 self.get_logger().info('No detection for 30 iterations, defaulting to middle raceline with ID: "%d"' % self.raceline_ID)
-                self.iterations_without_detection = 0
+                self.iterations_without_changing_ID = 0
+
+        self.bbox_center_prev = self.bbox_center
             
         
 
