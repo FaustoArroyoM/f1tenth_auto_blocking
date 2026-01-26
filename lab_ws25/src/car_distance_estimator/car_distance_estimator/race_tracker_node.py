@@ -104,9 +104,6 @@ class RaceTrackerNode(Node):
                     self.pub_distance_stereo.publish(msg_stereo)
                     
                     
-                    
-                  
-                    
                     # Use focal if the car is closer, else stereo
                     if closest.distance_from_bb > 1.0:
                         msg_distance = Float32(data=closest.distance_from_stereo)

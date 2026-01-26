@@ -60,7 +60,7 @@ class RacelineManagerNode(Node):
 
 
     def _bbox_center_callback(self, msg):
-        self.get_logger().info('Detection at bbox_center: "%f"' % msg.data)
+        # self.get_logger().info('Detection at bbox_center: "%f"' % msg.data)
         self.bbox_center = msg.data
 
 
@@ -111,7 +111,7 @@ class RacelineManagerNode(Node):
         if (self.distance_car is not None
             and self.distance_car < self.blocking_distance_threshold 
             and self.bbox_center is not None 
-            and self.bbox_center != self.bbox_center_prev 
+            # and self.bbox_center != self.bbox_center_prev 
         ): 
             # Reset detection counter
             self.iterations_without_detection = 0
@@ -123,8 +123,10 @@ class RacelineManagerNode(Node):
                 bbox_center_norm = self.bbox_center / self.image_width  
                 
                 raceline_ID = self.raceline_ID  # Init with current raceline ID
-                
-                if self.bbox_center is not None and self.bbox_center != 0: # TODO check tomorrow in the lab                 
+
+                self.get_logger().info(f'Current state ID: "{self.current_state_ID}", Current bbox_center: "{bbox_center_norm:.3f}"')
+                if self.bbox_center is not None and self.bbox_center != 0: # TODO check tomorrow in the lab   
+                                  
                     if self.current_state_ID == 1: # Normal driving state (middle raceline)
                         if bbox_center_norm < 0.5 - self.bbox_center_buffer:
                             raceline_ID = 0  # Change to Outer line
@@ -132,11 +134,11 @@ class RacelineManagerNode(Node):
                             raceline_ID = 2  # Change to Inner line
                     
                     # Inner raceline state; change to middle line if car is detected on the left
-                    elif self.current_state_ID == 2 and bbox_center_norm < 0.5 - self.bbox_center_buffer:
+                    elif self.current_state_ID == 0 and bbox_center_norm < 0.5 - self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                             
-                    # Outer raceline state; change to middle line if car is detected on the right
-                    elif self.current_state_ID == 0 and bbox_center_norm > 0.5 - self.bbox_center_buffer:
+                    # outer raceline state; change to middle line if car is detected on the right
+                    elif self.current_state_ID == 2 and bbox_center_norm > 0.5 - self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                     
                     if raceline_ID != self.raceline_ID:
@@ -145,7 +147,7 @@ class RacelineManagerNode(Node):
                             msg = Int32(data=self.raceline_ID)
                             self.pub_raceline_ID.publish(msg)
                             self.current_state_ID = self.raceline_ID
-                            self.get_logger().info('Current state ID changed to "%d"' % (self.current_state_ID))
+                            # self.get_logger().info('Current state ID changed to "%d"' % (self.current_state_ID))
                             # Reset change debounce counter
                             self.iterations_without_changing_ID = 0
 

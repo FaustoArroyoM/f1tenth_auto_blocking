@@ -19,9 +19,9 @@ def generate_launch_description():
         name='race_tracker',
         output='screen',
         parameters=[config_file],
-        remappings=[
-            ('/race_tracker/frame_annotated', '/camera/image_raw'),
-        ]
+        # remappings=[
+        #     ('/race_tracker/frame_annotated', '/camera/image_raw'),
+        # ]
     )
 
     return LaunchDescription([race_tracker_node])

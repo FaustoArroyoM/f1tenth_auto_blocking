@@ -10,6 +10,10 @@ except ImportError:
     HAS_PYZED = False
     sl = None
 
+
+# FLAGS
+DEBUG_MODE = True
+
 # import pyzed.sl as sl
 import cv2
 from ultralytics import YOLO
@@ -80,8 +84,7 @@ class RaceTracker:
         self.zed = None
 
         # Load YOLO model
-        # self.model = YOLO(model_path, task="detect")
-        self.model = YOLO("/home/f1tenth/f1tenth_auto_blocking/install/car_distance_estimator/share/car_distance_estimator/models/best.engine", task="detect")
+        self.model = YOLO("/home/f1tenth/f1tenth_auto_blocking/lab_ws25/install/car_distance_estimator/share/car_distance_estimator/models/best.engine", task="detect")
         
         # Initialize ZED camera
         self._init_zed()
@@ -182,6 +185,7 @@ class RaceTracker:
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
         # Display Window
+        # if DEBUG_MODE == True:
         cv2.imshow("F1TENTH Racing Monitor", render_frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             return None, [], False
