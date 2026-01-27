@@ -21,7 +21,7 @@ race_tracker_node:
     debug_mode: false
 
 
-raceline_manager_node:
+raceline_manager:
   ros__parameters:
     # Distance to trigger blocking behaviour of the car (in meters)
     blocking_distance_threshold: 2.0

@@ -11,8 +11,8 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     package_dir = get_package_share_directory('car_distance_estimator')
-    config_file = os.path.join(package_dir, 'config', 'raceline_manager_params.yaml')
-
+    config_file = os.path.join(package_dir, 'config', 'race_tracker_params.yaml')
+    
     raceline_manager_node = Node(
         package='car_distance_estimator',
         executable='raceline_manager_node',

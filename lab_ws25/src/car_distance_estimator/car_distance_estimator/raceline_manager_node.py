@@ -27,9 +27,14 @@ class RacelineManagerNode(Node):
         self.distance_car_subscription = self.create_subscription(Float32,'/race_tracker/distance_car',  self._distance_car_callback, 10)
 
         self.pub_raceline_ID = self.create_publisher(Int32, '/active_raceline', 10)
+
+        # Publish default raceline ID at startup
+        msg = Int32(data=self.raceline_ID)
+        self.pub_raceline_ID.publish(msg)
+
         self.timer = self.create_timer(self.node_timer_rate, self._process_loop)  # TODO ~30 Hz
-        
-        +self.get_logger().info('RacelineManagerNode initialized')
+ 
+        self.get_logger().info('RacelineManagerNode initialized')
         self.get_logger().info(f'  Starting raceline: {self.raceline_ID}')
 
 
@@ -46,16 +51,16 @@ class RacelineManagerNode(Node):
         self.raceline_ID = self.get_parameter('raceline_ID').value
 
         # Center buffer for middle (ideal) raceline        
-        self.declare_parameter('bbox_center_buffer', 0.15)
+        self.declare_parameter('bbox_center_buffer', 0.10)
         self.bbox_center_buffer = self.get_parameter('bbox_center_buffer').value
     
         self.declare_parameter('camera_image_width', 1280)
         self.image_width = self.get_parameter('camera_image_width').value
 
-        self.declare_parameter('iterations_threshold_for_changing_ID', 10)
+        self.declare_parameter('iterations_threshold_for_changing_ID', 45)
         self.iterations_threshold_for_changing_ID = self.get_parameter('iterations_threshold_for_changing_ID').value
 
-        self.declare_parameter('iterations_before_defaulting_ID', 30)
+        self.declare_parameter('iterations_before_defaulting_ID', 60)
         self.iterations_before_defaulting_ID = self.get_parameter('iterations_before_defaulting_ID').value
 
 
@@ -113,7 +118,6 @@ class RacelineManagerNode(Node):
             and self.bbox_center is not None 
             # and self.bbox_center != self.bbox_center_prev 
         ): 
-            # Reset detection counter
             self.iterations_without_detection = 0
             
             # If we can change raceline ID start switching logic:
@@ -125,20 +129,20 @@ class RacelineManagerNode(Node):
                 raceline_ID = self.raceline_ID  # Init with current raceline ID
 
                 self.get_logger().info(f'Current state ID: "{self.current_state_ID}", Current bbox_center: "{bbox_center_norm:.3f}"')
-                if self.bbox_center is not None and self.bbox_center != 0: # TODO check tomorrow in the lab   
+                if self.bbox_center is not None and self.bbox_center != 0:  
                                   
                     if self.current_state_ID == 1: # Normal driving state (middle raceline)
                         if bbox_center_norm < 0.5 - self.bbox_center_buffer:
-                            raceline_ID = 0  # Change to Outer line
+                            raceline_ID = 2  # Change to Outer line
                         elif bbox_center_norm > 0.5 + self.bbox_center_buffer:
-                            raceline_ID = 2  # Change to Inner line
+                            raceline_ID = 0  # Change to Inner line
                     
                     # Inner raceline state; change to middle line if car is detected on the left
                     elif self.current_state_ID == 0 and bbox_center_norm < 0.5 - self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                             
                     # outer raceline state; change to middle line if car is detected on the right
-                    elif self.current_state_ID == 2 and bbox_center_norm > 0.5 - self.bbox_center_buffer:
+                    elif self.current_state_ID == 2 and bbox_center_norm > 0.5 + self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                     
                     if raceline_ID != self.raceline_ID:
@@ -147,7 +151,7 @@ class RacelineManagerNode(Node):
                             msg = Int32(data=self.raceline_ID)
                             self.pub_raceline_ID.publish(msg)
                             self.current_state_ID = self.raceline_ID
-                            # self.get_logger().info('Current state ID changed to "%d"' % (self.current_state_ID))
+                            
                             # Reset change debounce counter
                             self.iterations_without_changing_ID = 0
 
@@ -162,8 +166,9 @@ class RacelineManagerNode(Node):
                     msg = Int32(data=self.raceline_ID)
                     self.pub_raceline_ID.publish(msg)
                     self.iterations_without_changing_ID = 0
+                    self.current_state_ID = self.raceline_ID
 
-            self.get_logger().info('No detection for 30 iterations, defaulting to middle raceline with ID: "%d"' % self.raceline_ID)
+            self.get_logger().info('Detection, but too far away (distance: "%f")' % self.distance_car)
             self.iterations_without_detection = 0
 
         # No detection case      
