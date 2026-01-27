@@ -45,7 +45,7 @@ public:
             this->declare_parameter(p + ".min_lookahead", 1.0);
             this->declare_parameter(p + ".max_lookahead", 3.0);
             this->declare_parameter(p + ".K_p", 0.3);
-            this->declare_parameter(p + ".velocity_percentage", 1.0);
+            this->declare_parameter(p + ".velocity_percentage", 0.4); // TODO change this here later
 
             LineData ld;
             ld.path = this->get_parameter(p + ".waypoints_path").as_string();
@@ -248,6 +248,7 @@ private:
                                 "Waiting for waypoints to load for lane %d...", active_lane);
             return; // Exit early so we don't crash
         }
+        
         odom_quat = msg->pose.pose.orientation;
         x_car_world = msg->pose.pose.position.x;
         y_car_world = msg->pose.pose.position.y;

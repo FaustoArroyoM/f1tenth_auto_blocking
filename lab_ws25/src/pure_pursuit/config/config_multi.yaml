@@ -15,7 +15,7 @@ pure_pursuit_multi_node:
       max_lookahead: 3.0
       lookahead_ratio: 8.0
       K_p: 0.2
-      velocity_percentage: 0.6
+      velocity_percentage: 0.4
 
     # --- Middle Line (1) ---
     middle:
@@ -24,16 +24,16 @@ pure_pursuit_multi_node:
       max_lookahead: 3.0
       lookahead_ratio: 8.0
       K_p: 0.2
-      velocity_percentage: 0.6
+      velocity_percentage: 0.4
       
     # --- Outer Line (2) ---
     outer:
       waypoints_path: "/home/f1tenth/f1tenth_auto_blocking/lab_ws25/src/pure_pursuit/racelines/Raceline_outside.csv"
       min_lookahead: 1.0
       max_lookahead: 3.0
-      lookahead_ratio: 8.0
-      K_p: 0.2
-      velocity_percentage: 0.6
+      lookahead_ratio: 15.0
+      K_p: 0.25
+      velocity_percentage: 0.4
 
 waypoint_visualiser_node:
   ros__parameters:
