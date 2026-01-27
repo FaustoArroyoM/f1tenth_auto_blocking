@@ -35,14 +35,17 @@ raceline_manager:
     # Center buffer for middle (ideal) raceline
     bbox_center_buffer: 0.10
 
+    # Where in the image is the center considered (normalize; default = 0.5)
+    center_line_buffer: 0.55
+
     # Number of iterations without detection to switch to default raceline
-    iterations_without_detection: 20
+    iterations_without_detection: 45
 
     # Max iterations before allowing raceline ID change
-    iterations_threshold_for_changing_ID: 45
+    iterations_threshold_for_changing_ID: 15
 
     # Max iterations without detection before switching to default raceline
-    iterations_before_defaulting_ID: 60
+    iterations_before_defaulting_ID: 45
 
     # Node timer rate (in seconds)
     node_timer_rate: 0.033

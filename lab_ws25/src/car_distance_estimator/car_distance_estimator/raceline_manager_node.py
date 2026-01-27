@@ -53,6 +53,10 @@ class RacelineManagerNode(Node):
         # Center buffer for middle (ideal) raceline        
         self.declare_parameter('bbox_center_buffer', 0.10)
         self.bbox_center_buffer = self.get_parameter('bbox_center_buffer').value
+
+        # Center line for buffer        
+        self.declare_parameter('center_line_buffer', 0.55)
+        self.center_line_buffer = self.get_parameter('center_line_buffer').value
     
         self.declare_parameter('camera_image_width', 1280)
         self.image_width = self.get_parameter('camera_image_width').value
@@ -132,17 +136,17 @@ class RacelineManagerNode(Node):
                 if self.bbox_center is not None and self.bbox_center != 0:  
                                   
                     if self.current_state_ID == 1: # Normal driving state (middle raceline)
-                        if bbox_center_norm < 0.5 - self.bbox_center_buffer:
+                        if bbox_center_norm < self.center_line_buffer - self.bbox_center_buffer:
                             raceline_ID = 2  # Change to Outer line
-                        elif bbox_center_norm > 0.5 + self.bbox_center_buffer:
+                        elif bbox_center_norm > self.center_line_buffer + self.bbox_center_buffer:
                             raceline_ID = 0  # Change to Inner line
                     
                     # Inner raceline state; change to middle line if car is detected on the left
-                    elif self.current_state_ID == 0 and bbox_center_norm < 0.5 - self.bbox_center_buffer:
+                    elif self.current_state_ID == 0 and bbox_center_norm < self.center_line_buffer - self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                             
                     # outer raceline state; change to middle line if car is detected on the right
-                    elif self.current_state_ID == 2 and bbox_center_norm > 0.5 + self.bbox_center_buffer:
+                    elif self.current_state_ID == 2 and bbox_center_norm > self.center_line_buffer + self.bbox_center_buffer:
                             raceline_ID = 1  # Change to Middle line
                     
                     if raceline_ID != self.raceline_ID:

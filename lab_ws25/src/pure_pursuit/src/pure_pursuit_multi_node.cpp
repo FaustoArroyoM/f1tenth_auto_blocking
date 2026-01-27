@@ -72,6 +72,8 @@ public:
             "/active_raceline", 10, [this](const std_msgs::msg::Int32::SharedPtr msg) {
                 if (msg->data >= 0 && msg->data <= 2) {
                     active_lane = msg->data;
+                    transition_counter = 15; // Set a "settle period" of 15 cycles (approx 0.15s)
+                    RCLCPP_INFO(this->get_logger(), "Switching... settling for 15 cycles");
                     RCLCPP_INFO(this->get_logger(), "Switched to lane: %d", active_lane);
                 }
             });
@@ -101,7 +103,10 @@ private:
     Eigen::Vector3d p1_car;
     double x_car_world, y_car_world;
     double curr_velocity = 0.0;
+  //  double last_steering_angle = 0.0;
     double steering_limit;
+    int transition_counter = 0;
+    int last_lane = 1;
 
     std::string odom_topic, car_refFrame, drive_topic, global_refFrame, rviz_waypointselected_topic;
 
@@ -210,7 +215,16 @@ private:
     double p_controller() {
         double r = p1_car.norm();
         double y = p1_car(1);
-        return (racing_lines[active_lane].kp * 2.0 * y) / pow(r, 2);
+       // return (racing_lines[active_lane].kp * 2.0 * y) / pow(r, 2);
+       double raw_steer = (racing_lines[active_lane].kp * 2.0 * y) / pow(r, 2);
+       if (transition_counter > 0) {
+            // Gradually increase the steering power as the counter hits zero
+            double scale = 1.0 - (transition_counter / 15.0); 
+            raw_steer *= scale; 
+            transition_counter--;
+        }
+        return raw_steer;
+
     }
 
     double get_velocity(double steering_angle) {
